@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Module__c</fullName>
+    <externalId>false</externalId>
+    <label>Module</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>System__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DMS - Gen</fullName>
+                <default>false</default>
+                <label>DMS - Gen</label>
+            </value>
+            <value>
+                <fullName>DMS- PD</fullName>
+                <default>false</default>
+                <label>DMS- PD</label>
+            </value>
+            <value>
+                <fullName>EQMS</fullName>
+                <default>false</default>
+                <label>EQMS</label>
+            </value>
+            <value>
+                <fullName>Audits</fullName>
+                <default>false</default>
+                <label>Audits</label>
+            </value>
+            <value>
+                <fullName>Complaints</fullName>
+                <default>false</default>
+                <label>Complaints</label>
+            </value>
+            <value>
+                <fullName>SQM</fullName>
+                <default>false</default>
+                <label>SQM</label>
+            </value>
+            <value>
+                <fullName>Compliance Wire</fullName>
+                <default>false</default>
+                <label>Compliance Wire</label>
+            </value>
+            <value>
+                <fullName>SBO</fullName>
+                <default>false</default>
+                <label>SBO</label>
+            </value>
+            <value>
+                <fullName>BEAS</fullName>
+                <default>false</default>
+                <label>BEAS</label>
+            </value>
+            <value>
+                <fullName>ADC</fullName>
+                <default>false</default>
+                <label>ADC</label>
+            </value>
+            <value>
+                <fullName>ACC General</fullName>
+                <default>false</default>
+                <label>ACC General</label>
+            </value>
+            <value>
+                <fullName>ACC Clean Rooms</fullName>
+                <default>false</default>
+                <label>ACC Clean Rooms</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>CAPA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CAPA</label>
+            </value>
+            <value>
+                <fullName>Change Control</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Change Control</label>
+            </value>
+            <value>
+                <fullName>Quality Events</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Quality Events</label>
+            </value>
+            <value>
+                <fullName>Stand Alone CAPA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Stand Alone CAPA</label>
+            </value>
+            <value>
+                <fullName>ValGenesis</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ValGenesis</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>SAP</controllingFieldValue>
+            <valueName>SBO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAP</controllingFieldValue>
+            <valueName>BEAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facility Access</controllingFieldValue>
+            <valueName>ADC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facility Access</controllingFieldValue>
+            <valueName>ACC General</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facility Access</controllingFieldValue>
+            <valueName>ACC Clean Rooms</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facility Access</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trackwise</controllingFieldValue>
+            <valueName>DMS - Gen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trackwise</controllingFieldValue>
+            <valueName>DMS- PD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trackwise</controllingFieldValue>
+            <valueName>EQMS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trackwise</controllingFieldValue>
+            <valueName>Audits</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trackwise</controllingFieldValue>
+            <valueName>Complaints</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trackwise</controllingFieldValue>
+            <valueName>SQM</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

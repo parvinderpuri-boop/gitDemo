@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>When at least one Nonconformance actions is required for Impacted Lot record</description>
+    <eventType>HighVolume</eventType>
+    <label>Nonconformance Action Required</label>
+    <pluralLabel>Nonconformance Actions Required</pluralLabel>
+    <publishBehavior>PublishAfterCommit</publishBehavior>
+</CustomObject>

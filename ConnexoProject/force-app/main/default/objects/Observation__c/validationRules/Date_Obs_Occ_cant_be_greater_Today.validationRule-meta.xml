@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_Obs_Occ_cant_be_greater_Today</fullName>
+    <active>true</active>
+    <description>Date Observed and Date of Occurrence cannot be greater than current date.</description>
+    <errorConditionFormula>Date_Observed__c &gt; TODAY() || Date_of_Occurrence__c &gt; TODAY()</errorConditionFormula>
+    <errorMessage>Date Observed and Date of Occurrence cannot be greater than current date.</errorMessage>
+</ValidationRule>

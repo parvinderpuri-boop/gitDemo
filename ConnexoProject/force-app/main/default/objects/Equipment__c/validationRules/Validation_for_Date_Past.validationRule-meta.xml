@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_for_Date_Past</fullName>
+    <active>false</active>
+    <description>VPR Approval and EVP Approval cannot be set in the past</description>
+    <errorConditionFormula>AND(
+    OR(
+        ISNEW(),
+        ISCHANGED(EVP_Approval__c),
+        ISCHANGED(VPR_Approval__c)
+    ),
+    OR(
+        EVP_Approval__c &lt; TODAY(),
+        VPR_Approval__c &lt; TODAY()
+    )
+)</errorConditionFormula>
+    <errorMessage>VPR Approval OR EVP Approval cannot be set in the past.</errorMessage>
+</ValidationRule>

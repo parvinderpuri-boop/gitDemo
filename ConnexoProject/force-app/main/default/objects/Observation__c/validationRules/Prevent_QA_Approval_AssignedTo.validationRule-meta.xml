@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_QA_Approval_AssignedTo</fullName>
+    <active>true</active>
+    <description>Cannot approve a record where you are the &apos;Assigned To&apos; person</description>
+    <errorConditionFormula>AND(CMPL123_WF_Action__c = &quot;QA Approve&quot;, Assigned_To__c = $User.Id)</errorConditionFormula>
+    <errorMessage>Cannot approve a record where you are the &apos;Assigned To&apos; person</errorMessage>
+</ValidationRule>

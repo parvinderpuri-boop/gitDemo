@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Equipment_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Equipment Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aerosol Generator</fullName>
+                <default>false</default>
+                <label>Aerosol Generator</label>
+            </value>
+            <value>
+                <fullName>Air Sampler</fullName>
+                <default>false</default>
+                <label>Air Sampler</label>
+            </value>
+            <value>
+                <fullName>Auto Droplet Generator</fullName>
+                <default>false</default>
+                <label>Auto Droplet Generator</label>
+            </value>
+            <value>
+                <fullName>Autoclave</fullName>
+                <default>false</default>
+                <label>Autoclave</label>
+            </value>
+            <value>
+                <fullName>Balance/Scale</fullName>
+                <default>false</default>
+                <label>Balance/Scale</label>
+            </value>
+            <value>
+                <fullName>Bead Bath</fullName>
+                <default>false</default>
+                <label>Bead Bath</label>
+            </value>
+            <value>
+                <fullName>Bioanalyzer</fullName>
+                <default>false</default>
+                <label>Bioanalyzer</label>
+            </value>
+            <value>
+                <fullName>Bioreactor</fullName>
+                <default>false</default>
+                <label>Bioreactor</label>
+            </value>
+            <value>
+                <fullName>Biosealer</fullName>
+                <default>false</default>
+                <label>Biosealer</label>
+            </value>
+            <value>
+                <fullName>Biowelder</fullName>
+                <default>false</default>
+                <label>Biowelder</label>
+            </value>
+            <value>
+                <fullName>BSC</fullName>
+                <default>false</default>
+                <label>BSC</label>
+            </value>
+            <value>
+                <fullName>Centrifuge</fullName>
+                <default>false</default>
+                <label>Centrifuge</label>
+            </value>
+            <value>
+                <fullName>CO2 Incubator</fullName>
+                <default>false</default>
+                <label>CO2 Incubator</label>
+            </value>
+            <value>
+                <fullName>Data Logger</fullName>
+                <default>false</default>
+                <label>Data Logger</label>
+            </value>
+            <value>
+                <fullName>Density Meter</fullName>
+                <default>false</default>
+                <label>Density Meter</label>
+            </value>
+            <value>
+                <fullName>DI Water Station</fullName>
+                <default>false</default>
+                <label>DI Water Station</label>
+            </value>
+            <value>
+                <fullName>Droplet Reader</fullName>
+                <default>false</default>
+                <label>Droplet Reader</label>
+            </value>
+            <value>
+                <fullName>Dry Bath</fullName>
+                <default>false</default>
+                <label>Dry Bath</label>
+            </value>
+            <value>
+                <fullName>Facility</fullName>
+                <default>false</default>
+                <label>Facility</label>
+            </value>
+            <value>
+                <fullName>Freezer</fullName>
+                <default>false</default>
+                <label>Freezer</label>
+            </value>
+            <value>
+                <fullName>Gas Manifold</fullName>
+                <default>false</default>
+                <label>Gas Manifold</label>
+            </value>
+            <value>
+                <fullName>Gauge</fullName>
+                <default>false</default>
+                <label>Gauge</label>
+            </value>
+            <value>
+                <fullName>Hot Block</fullName>
+                <default>false</default>
+                <label>Hot Block</label>
+            </value>
+            <value>
+                <fullName>Hot/Stir Plate</fullName>
+                <default>false</default>
+                <label>Hot/Stir Plate</label>
+            </value>
+            <value>
+                <fullName>Imaging System</fullName>
+                <default>false</default>
+                <label>Imaging System</label>
+            </value>
+            <value>
+                <fullName>Inspection Booth</fullName>
+                <default>false</default>
+                <label>Inspection Booth</label>
+            </value>
+            <value>
+                <fullName>Lev Mixer</fullName>
+                <default>false</default>
+                <label>Lev Mixer</label>
+            </value>
+            <value>
+                <fullName>Mag Mixer</fullName>
+                <default>false</default>
+                <label>Mag Mixer</label>
+            </value>
+            <value>
+                <fullName>Media Warmer</fullName>
+                <default>false</default>
+                <label>Media Warmer</label>
+            </value>
+            <value>
+                <fullName>Microcentrifuge</fullName>
+                <default>false</default>
+                <label>Microcentrifuge</label>
+            </value>
+            <value>
+                <fullName>Micromanometer</fullName>
+                <default>false</default>
+                <label>Micromanometer</label>
+            </value>
+            <value>
+                <fullName>Micro-osmometer</fullName>
+                <default>false</default>
+                <label>Micro-osmometer</label>
+            </value>
+            <value>
+                <fullName>Microscope</fullName>
+                <default>false</default>
+                <label>Microscope</label>
+            </value>
+            <value>
+                <fullName>Mixing Tank</fullName>
+                <default>false</default>
+                <label>Mixing Tank</label>
+            </value>
+            <value>
+                <fullName>Nanodrop</fullName>
+                <default>false</default>
+                <label>Nanodrop</label>
+            </value>
+            <value>
+                <fullName>Orbital Shaker</fullName>
+                <default>false</default>
+                <label>Orbital Shaker</label>
+            </value>
+            <value>
+                <fullName>Particle Counter</fullName>
+                <default>false</default>
+                <label>Particle Counter</label>
+            </value>
+            <value>
+                <fullName>PCR</fullName>
+                <default>false</default>
+                <label>PCR</label>
+            </value>
+            <value>
+                <fullName>pH/Conductivity Meter</fullName>
+                <default>false</default>
+                <label>pH/Conductivity Meter</label>
+            </value>
+            <value>
+                <fullName>Photometer</fullName>
+                <default>false</default>
+                <label>Photometer</label>
+            </value>
+            <value>
+                <fullName>Pipet-Aid</fullName>
+                <default>false</default>
+                <label>Pipet-Aid</label>
+            </value>
+            <value>
+                <fullName>Pipette</fullName>
+                <default>false</default>
+                <label>Pipette</label>
+            </value>
+            <value>
+                <fullName>Plate Reader</fullName>
+                <default>false</default>
+                <label>Plate Reader</label>
+            </value>
+            <value>
+                <fullName>Plate Sealer</fullName>
+                <default>false</default>
+                <label>Plate Sealer</label>
+            </value>
+            <value>
+                <fullName>Plate Shaker</fullName>
+                <default>false</default>
+                <label>Plate Shaker</label>
+            </value>
+            <value>
+                <fullName>Power Supply</fullName>
+                <default>false</default>
+                <label>Power Supply</label>
+            </value>
+            <value>
+                <fullName>Pressure Monitor</fullName>
+                <default>false</default>
+                <label>Pressure Monitor</label>
+            </value>
+            <value>
+                <fullName>Probe</fullName>
+                <default>false</default>
+                <label>Probe</label>
+            </value>
+            <value>
+                <fullName>Pump</fullName>
+                <default>false</default>
+                <label>Pump</label>
+            </value>
+            <value>
+                <fullName>Refractometer</fullName>
+                <default>false</default>
+                <label>Refractometer</label>
+            </value>
+            <value>
+                <fullName>Refrigerator</fullName>
+                <default>false</default>
+                <label>Refrigerator</label>
+            </value>
+            <value>
+                <fullName>Schneider CO2 Sensor</fullName>
+                <default>false</default>
+                <label>Schneider CO2 Sensor</label>
+            </value>
+            <value>
+                <fullName>Schneider Humidity Sensor</fullName>
+                <default>false</default>
+                <label>Schneider Humidity Sensor</label>
+            </value>
+            <value>
+                <fullName>Schneider Pressure Sensor</fullName>
+                <default>false</default>
+                <label>Schneider Pressure Sensor</label>
+            </value>
+            <value>
+                <fullName>Schneider T/H Sensor</fullName>
+                <default>false</default>
+                <label>Schneider T/H Sensor</label>
+            </value>
+            <value>
+                <fullName>Schneider Temp Sensor</fullName>
+                <default>false</default>
+                <label>Schneider Temp Sensor</label>
+            </value>
+            <value>
+                <fullName>Shaking Incubator</fullName>
+                <default>false</default>
+                <label>Shaking Incubator</label>
+            </value>
+            <value>
+                <fullName>Stir Plate</fullName>
+                <default>false</default>
+                <label>Stir Plate</label>
+            </value>
+            <value>
+                <fullName>TCU</fullName>
+                <default>false</default>
+                <label>TCU</label>
+            </value>
+            <value>
+                <fullName>Thermal Cycler</fullName>
+                <default>false</default>
+                <label>Thermal Cycler</label>
+            </value>
+            <value>
+                <fullName>Thermometer</fullName>
+                <default>false</default>
+                <label>Thermometer</label>
+            </value>
+            <value>
+                <fullName>Tube Sealer</fullName>
+                <default>false</default>
+                <label>Tube Sealer</label>
+            </value>
+            <value>
+                <fullName>Ultracentrifuge</fullName>
+                <default>false</default>
+                <label>Ultracentrifuge</label>
+            </value>
+            <value>
+                <fullName>Vacuum Concentrator</fullName>
+                <default>false</default>
+                <label>Vacuum Concentrator</label>
+            </value>
+            <value>
+                <fullName>Vi-CELL BLU</fullName>
+                <default>false</default>
+                <label>Vi-CELL BLU</label>
+            </value>
+            <value>
+                <fullName>Wand Mixer</fullName>
+                <default>false</default>
+                <label>Wand Mixer</label>
+            </value>
+            <value>
+                <fullName>Water Bath</fullName>
+                <default>false</default>
+                <label>Water Bath</label>
+            </value>
+            <value>
+                <fullName>Zetasizer</fullName>
+                <default>false</default>
+                <label>Zetasizer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

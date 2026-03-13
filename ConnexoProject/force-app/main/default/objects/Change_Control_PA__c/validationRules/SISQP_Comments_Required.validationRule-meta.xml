@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SISQP_Comments_Required</fullName>
+    <active>true</active>
+    <description>If SISQP is yes then SISQP Comment is mandatory</description>
+    <errorConditionFormula>AND(ISPICKVAl( IImpact__c , &quot;Yes&quot;), ISBLANK( SISQP_Comments__c ))</errorConditionFormula>
+    <errorDisplayField>SISQP_Comments__c</errorDisplayField>
+    <errorMessage>If Impact To SISQP is Yes then SISQP Comments field is required</errorMessage>
+</ValidationRule>

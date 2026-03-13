@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Change_Controlc</fullName>
+    <availability>online</availability>
+    <description>This button was created by TrackWise Digital to check the status of the Related List - Change Control-Affected Equipment(Change Control).</description>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>New Affected Equipment (Change Control)</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>/apex/CMPL123__LockRecord?objectType=Affected_Equipment__c&amp;parentId={!CMPL123QMS__Change_Control__c.Id}&amp;relationShipName=Affected_Equipment__r&amp;lookupField=Change_Control__c</url>
+</WebLink>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Owner_Area__c</fullName>
+    <externalId>false</externalId>
+    <label>Owner Area</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Analytical Development</fullName>
+                <default>false</default>
+                <label>Analytical Development</label>
+            </value>
+            <value>
+                <fullName>Business Team</fullName>
+                <default>false</default>
+                <label>Business Team</label>
+            </value>
+            <value>
+                <fullName>Drug &amp; Device Development</fullName>
+                <default>false</default>
+                <label>Drug &amp; Device Development</label>
+            </value>
+            <value>
+                <fullName>Engineering</fullName>
+                <default>false</default>
+                <label>Engineering</label>
+            </value>
+            <value>
+                <fullName>Facilities</fullName>
+                <default>false</default>
+                <label>Facilities</label>
+            </value>
+            <value>
+                <fullName>IT</fullName>
+                <default>false</default>
+                <label>IT</label>
+            </value>
+            <value>
+                <fullName>Learning &amp; Development</fullName>
+                <default>false</default>
+                <label>Learning &amp; Development</label>
+            </value>
+            <value>
+                <fullName>Manufacturing</fullName>
+                <default>false</default>
+                <label>Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Materials Management</fullName>
+                <default>false</default>
+                <label>Materials Management</label>
+            </value>
+            <value>
+                <fullName>Metrology</fullName>
+                <default>false</default>
+                <label>Metrology</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Packaging &amp; Labeling</fullName>
+                <default>false</default>
+                <label>Packaging &amp; Labeling</label>
+            </value>
+            <value>
+                <fullName>Product Development</fullName>
+                <default>false</default>
+                <label>Product Development</label>
+            </value>
+            <value>
+                <fullName>Quality Assurance</fullName>
+                <default>false</default>
+                <label>Quality Assurance</label>
+            </value>
+            <value>
+                <fullName>Quality Control</fullName>
+                <default>false</default>
+                <label>Quality Control</label>
+            </value>
+            <value>
+                <fullName>Regulatory Affairs</fullName>
+                <default>false</default>
+                <label>Regulatory Affairs</label>
+            </value>
+            <value>
+                <fullName>Shipping &amp; Receiving</fullName>
+                <default>false</default>
+                <label>Shipping &amp; Receiving</label>
+            </value>
+            <value>
+                <fullName>Warehouse</fullName>
+                <default>false</default>
+                <label>Warehouse</label>
+            </value>
+            <value>
+                <fullName>MS&amp;T</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>MS&amp;T</label>
+            </value>
+            <value>
+                <fullName>Operations(OPS)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Operations(OPS)</label>
+            </value>
+            <value>
+                <fullName>Plasmids Manufacturing</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Plasmids Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Starting Materials</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Starting Materials</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

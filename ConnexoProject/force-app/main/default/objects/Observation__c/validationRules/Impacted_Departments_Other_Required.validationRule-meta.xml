@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Impacted_Departments_Other_Required</fullName>
+    <active>true</active>
+    <description>If Impacted Department = Other, Impacted Department Other field is required</description>
+    <errorConditionFormula>AND(INCLUDES( Impacted_Departments__c , &quot;Other&quot;), ISBLANK( Impacted_Department_Other__c ))</errorConditionFormula>
+    <errorDisplayField>Impacted_Department_Other__c</errorDisplayField>
+    <errorMessage>If Impacted Department = Other, Impacted Department Other field is required</errorMessage>
+</ValidationRule>

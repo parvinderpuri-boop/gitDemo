@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Due_Date</fullName>
+    <fields>Name</fields>
+    <fields>Equipment_Type__c</fields>
+    <fields>Equipmen_Status__c</fields>
+    <label>Due Date</label>
+</CompactLayout>

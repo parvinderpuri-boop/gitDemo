@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Location_Other_Required</fullName>
+    <active>true</active>
+    <description>If Location = Other, Location Other field is required</description>
+    <errorConditionFormula>AND(ISPICKVAL( Location__c , &quot;Other&quot;), ISBLANK( Location_Other__c ))</errorConditionFormula>
+    <errorMessage>If Location = Other, Location Other field is required</errorMessage>
+</ValidationRule>

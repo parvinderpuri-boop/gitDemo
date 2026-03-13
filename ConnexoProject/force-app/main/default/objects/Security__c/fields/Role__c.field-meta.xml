@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Role__c</fullName>
+    <externalId>false</externalId>
+    <label>Role</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>System__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DMS User</fullName>
+                <default>false</default>
+                <label>DMS User</label>
+            </value>
+            <value>
+                <fullName>DMS Admin</fullName>
+                <default>false</default>
+                <label>DMS Admin</label>
+            </value>
+            <value>
+                <fullName>Pharma Owner</fullName>
+                <default>false</default>
+                <label>Pharma Owner</label>
+            </value>
+            <value>
+                <fullName>CAPA</fullName>
+                <default>false</default>
+                <label>CAPA</label>
+            </value>
+            <value>
+                <fullName>Change Control</fullName>
+                <default>false</default>
+                <label>Change Control</label>
+            </value>
+            <value>
+                <fullName>Quality Events</fullName>
+                <default>false</default>
+                <label>Quality Events</label>
+            </value>
+            <value>
+                <fullName>Complaints</fullName>
+                <default>false</default>
+                <label>Complaints</label>
+            </value>
+            <value>
+                <fullName>Security</fullName>
+                <default>false</default>
+                <label>Security</label>
+            </value>
+            <value>
+                <fullName>Observation</fullName>
+                <default>false</default>
+                <label>Observation</label>
+            </value>
+            <value>
+                <fullName>Owner Transfer</fullName>
+                <default>false</default>
+                <label>Owner Transfer</label>
+            </value>
+            <value>
+                <fullName>View Only</fullName>
+                <default>false</default>
+                <label>View Only</label>
+            </value>
+            <value>
+                <fullName>Managers and Supervisors</fullName>
+                <default>false</default>
+                <label>Managers and Supervisors</label>
+            </value>
+            <value>
+                <fullName>Primary Manager</fullName>
+                <default>false</default>
+                <label>Primary Manager</label>
+            </value>
+            <value>
+                <fullName>Learner</fullName>
+                <default>false</default>
+                <label>Learner</label>
+            </value>
+            <value>
+                <fullName>Quality Assurance Reporting View</fullName>
+                <default>false</default>
+                <label>Quality Assurance Reporting View</label>
+            </value>
+            <value>
+                <fullName>Quality Assurance Documentation Internal</fullName>
+                <default>false</default>
+                <label>Quality Assurance Documentation Internal</label>
+            </value>
+            <value>
+                <fullName>Gowning Verifications</fullName>
+                <default>false</default>
+                <label>Gowning Verifications</label>
+            </value>
+            <value>
+                <fullName>IT Admin</fullName>
+                <default>false</default>
+                <label>IT Admin</label>
+            </value>
+            <value>
+                <fullName>Organization Administrator</fullName>
+                <default>false</default>
+                <label>Organization Administrator</label>
+            </value>
+            <value>
+                <fullName>Course Owner</fullName>
+                <default>false</default>
+                <label>Course Owner</label>
+            </value>
+            <value>
+                <fullName>General User</fullName>
+                <default>false</default>
+                <label>General User</label>
+            </value>
+            <value>
+                <fullName>Alarm User</fullName>
+                <default>false</default>
+                <label>Alarm User</label>
+            </value>
+            <value>
+                <fullName>Engineering User</fullName>
+                <default>false</default>
+                <label>Engineering User</label>
+            </value>
+            <value>
+                <fullName>Business Administrator</fullName>
+                <default>false</default>
+                <label>Business Administrator</label>
+            </value>
+            <value>
+                <fullName>Coordinator</fullName>
+                <default>false</default>
+                <label>Coordinator</label>
+            </value>
+            <value>
+                <fullName>Engineering</fullName>
+                <default>false</default>
+                <label>Engineering</label>
+            </value>
+            <value>
+                <fullName>Non GxP Reviewer</fullName>
+                <default>false</default>
+                <label>Non GxP Reviewer</label>
+            </value>
+            <value>
+                <fullName>Quality Assurance</fullName>
+                <default>false</default>
+                <label>Quality Assurance</label>
+            </value>
+            <value>
+                <fullName>Query Administrator</fullName>
+                <default>false</default>
+                <label>Query Administrator</label>
+            </value>
+            <value>
+                <fullName>Supervisor</fullName>
+                <default>false</default>
+                <label>Supervisor</label>
+            </value>
+            <value>
+                <fullName>System Administrator</fullName>
+                <default>false</default>
+                <label>System Administrator</label>
+            </value>
+            <value>
+                <fullName>Technician</fullName>
+                <default>false</default>
+                <label>Technician</label>
+            </value>
+            <value>
+                <fullName>Work Requester</fullName>
+                <default>false</default>
+                <label>Work Requester</label>
+            </value>
+            <value>
+                <fullName>Read Only</fullName>
+                <default>false</default>
+                <label>Read Only</label>
+            </value>
+            <value>
+                <fullName>Data Packet App</fullName>
+                <default>false</default>
+                <label>Data Packet App</label>
+            </value>
+            <value>
+                <fullName>QC Lab Analyst</fullName>
+                <default>false</default>
+                <label>QC Lab Analyst</label>
+            </value>
+            <value>
+                <fullName>QC Lab Manager</fullName>
+                <default>false</default>
+                <label>QC Lab Manager</label>
+            </value>
+            <value>
+                <fullName>QC Logger</fullName>
+                <default>false</default>
+                <label>QC Logger</label>
+            </value>
+            <value>
+                <fullName>QC Receiver</fullName>
+                <default>false</default>
+                <label>QC Receiver</label>
+            </value>
+            <value>
+                <fullName>QC Reviewer</fullName>
+                <default>false</default>
+                <label>QC Reviewer</label>
+            </value>
+            <value>
+                <fullName>QC SME</fullName>
+                <default>false</default>
+                <label>QC SME</label>
+            </value>
+            <value>
+                <fullName>QC Batch Creator</fullName>
+                <default>false</default>
+                <label>QC Batch Creator</label>
+            </value>
+            <value>
+                <fullName>QC Stab Analyst</fullName>
+                <default>false</default>
+                <label>QC Stab Analyst</label>
+            </value>
+            <value>
+                <fullName>QC Stab Coordinator</fullName>
+                <default>false</default>
+                <label>QC Stab Coordinator</label>
+            </value>
+            <value>
+                <fullName>AD Lab Analyst</fullName>
+                <default>false</default>
+                <label>AD Lab Analyst</label>
+            </value>
+            <value>
+                <fullName>AD Lab Manager</fullName>
+                <default>false</default>
+                <label>AD Lab Manager</label>
+            </value>
+            <value>
+                <fullName>AD Logger</fullName>
+                <default>false</default>
+                <label>AD Logger</label>
+            </value>
+            <value>
+                <fullName>AD Receiver</fullName>
+                <default>false</default>
+                <label>AD Receiver</label>
+            </value>
+            <value>
+                <fullName>AD Reviewer</fullName>
+                <default>false</default>
+                <label>AD Reviewer</label>
+            </value>
+            <value>
+                <fullName>AD SME</fullName>
+                <default>false</default>
+                <label>AD SME</label>
+            </value>
+            <value>
+                <fullName>AD Stab Analyst</fullName>
+                <default>false</default>
+                <label>AD Stab Analyst</label>
+            </value>
+            <value>
+                <fullName>AD Stab Coordinator</fullName>
+                <default>false</default>
+                <label>AD Stab Coordinator</label>
+            </value>
+            <value>
+                <fullName>CCG Analyst</fullName>
+                <default>false</default>
+                <label>CCG Analyst</label>
+            </value>
+            <value>
+                <fullName>CCG Manager</fullName>
+                <default>false</default>
+                <label>CCG Manager</label>
+            </value>
+            <value>
+                <fullName>Operations (CPP)</fullName>
+                <default>false</default>
+                <label>Operations (CPP)</label>
+            </value>
+            <value>
+                <fullName>Operations (EM)</fullName>
+                <default>false</default>
+                <label>Operations (EM)</label>
+            </value>
+            <value>
+                <fullName>Plasmids (CPP)</fullName>
+                <default>false</default>
+                <label>Plasmids (CPP)</label>
+            </value>
+            <value>
+                <fullName>Plasmids (EM)</fullName>
+                <default>false</default>
+                <label>Plasmids (EM)</label>
+            </value>
+            <value>
+                <fullName>QA Approve</fullName>
+                <default>false</default>
+                <label>QA Approve</label>
+            </value>
+            <value>
+                <fullName>QA Technical Review</fullName>
+                <default>false</default>
+                <label>QA Technical Review</label>
+            </value>
+            <value>
+                <fullName>Reagent Manager</fullName>
+                <default>false</default>
+                <label>Reagent Manager</label>
+            </value>
+            <value>
+                <fullName>Operations Collector</fullName>
+                <default>false</default>
+                <label>Operations Collector</label>
+            </value>
+            <value>
+                <fullName>Plasmids Collector</fullName>
+                <default>false</default>
+                <label>Plasmids Collector</label>
+            </value>
+            <value>
+                <fullName>Data View</fullName>
+                <default>false</default>
+                <label>Data View</label>
+            </value>
+            <value>
+                <fullName>Master Data Builder</fullName>
+                <default>false</default>
+                <label>Master Data Builder</label>
+            </value>
+            <value>
+                <fullName>Administrator</fullName>
+                <default>false</default>
+                <label>Administrator</label>
+            </value>
+            <value>
+                <fullName>Buyer</fullName>
+                <default>false</default>
+                <label>Buyer</label>
+            </value>
+            <value>
+                <fullName>Finance Level 1</fullName>
+                <default>false</default>
+                <label>Finance Level 1</label>
+            </value>
+            <value>
+                <fullName>Finance Level 2</fullName>
+                <default>false</default>
+                <label>Finance Level 2</label>
+            </value>
+            <value>
+                <fullName>Goods Receipt</fullName>
+                <default>false</default>
+                <label>Goods Receipt</label>
+            </value>
+            <value>
+                <fullName>Inventory Controller</fullName>
+                <default>false</default>
+                <label>Inventory Controller</label>
+            </value>
+            <value>
+                <fullName>Inventory Counting</fullName>
+                <default>false</default>
+                <label>Inventory Counting</label>
+            </value>
+            <value>
+                <fullName>Inventory Transfer</fullName>
+                <default>false</default>
+                <label>Inventory Transfer</label>
+            </value>
+            <value>
+                <fullName>IQBO</fullName>
+                <default>false</default>
+                <label>IQBO</label>
+            </value>
+            <value>
+                <fullName>Master Production Scheduler</fullName>
+                <default>false</default>
+                <label>Master Production Scheduler</label>
+            </value>
+            <value>
+                <fullName>Material Handler</fullName>
+                <default>false</default>
+                <label>Material Handler</label>
+            </value>
+            <value>
+                <fullName>Material User</fullName>
+                <default>false</default>
+                <label>Material User</label>
+            </value>
+            <value>
+                <fullName>PMO Level 1</fullName>
+                <default>false</default>
+                <label>PMO Level 1</label>
+            </value>
+            <value>
+                <fullName>Production</fullName>
+                <default>false</default>
+                <label>Production</label>
+            </value>
+            <value>
+                <fullName>Production Planner</fullName>
+                <default>false</default>
+                <label>Production Planner</label>
+            </value>
+            <value>
+                <fullName>Purchase Requester</fullName>
+                <default>false</default>
+                <label>Purchase Requester</label>
+            </value>
+            <value>
+                <fullName>QA/QC</fullName>
+                <default>false</default>
+                <label>QA/QC</label>
+            </value>
+            <value>
+                <fullName>Read-Only</fullName>
+                <default>false</default>
+                <label>Read-Only</label>
+            </value>
+            <value>
+                <fullName>Safety</fullName>
+                <default>false</default>
+                <label>Safety</label>
+            </value>
+            <value>
+                <fullName>Shipper</fullName>
+                <default>false</default>
+                <label>Shipper</label>
+            </value>
+            <value>
+                <fullName>Supply Chain Manager</fullName>
+                <default>false</default>
+                <label>Supply Chain Manager</label>
+            </value>
+            <value>
+                <fullName>Vendor Agreement Specialist</fullName>
+                <default>false</default>
+                <label>Vendor Agreement Specialist</label>
+            </value>
+            <value>
+                <fullName>Account Owner</fullName>
+                <default>false</default>
+                <label>Account Owner</label>
+            </value>
+            <value>
+                <fullName>Operator</fullName>
+                <default>false</default>
+                <label>Operator</label>
+            </value>
+            <value>
+                <fullName>Tulip Table Supervisor</fullName>
+                <default>false</default>
+                <label>Tulip Table Supervisor</label>
+            </value>
+            <value>
+                <fullName>Clinician</fullName>
+                <default>false</default>
+                <label>Clinician</label>
+            </value>
+            <value>
+                <fullName>Reviewer</fullName>
+                <default>false</default>
+                <label>Reviewer</label>
+            </value>
+            <value>
+                <fullName>Company Admin</fullName>
+                <default>false</default>
+                <label>Company Admin</label>
+            </value>
+            <value>
+                <fullName>User</fullName>
+                <default>false</default>
+                <label>User</label>
+            </value>
+            <value>
+                <fullName>SuperUser</fullName>
+                <default>false</default>
+                <label>SuperUser</label>
+            </value>
+            <value>
+                <fullName>Admin</fullName>
+                <default>false</default>
+                <label>Admin</label>
+            </value>
+            <value>
+                <fullName>Editor</fullName>
+                <default>false</default>
+                <label>Editor</label>
+            </value>
+            <value>
+                <fullName>Viewer</fullName>
+                <default>false</default>
+                <label>Viewer</label>
+            </value>
+            <value>
+                <fullName>Client</fullName>
+                <default>false</default>
+                <label>Client</label>
+            </value>
+            <value>
+                <fullName>Cleaning Operator</fullName>
+                <default>false</default>
+                <label>Cleaning Operator</label>
+            </value>
+            <value>
+                <fullName>Cleaning Supervisor</fullName>
+                <default>false</default>
+                <label>Cleaning Supervisor</label>
+            </value>
+            <value>
+                <fullName>Operations Operator</fullName>
+                <default>false</default>
+                <label>Operations Operator</label>
+            </value>
+            <value>
+                <fullName>Operations Supervisor</fullName>
+                <default>false</default>
+                <label>Operations Supervisor</label>
+            </value>
+            <value>
+                <fullName>Plasmids Operator</fullName>
+                <default>false</default>
+                <label>Plasmids Operator</label>
+            </value>
+            <value>
+                <fullName>Plasmids Supervisor</fullName>
+                <default>false</default>
+                <label>Plasmids Supervisor</label>
+            </value>
+            <value>
+                <fullName>QC Analyst</fullName>
+                <default>false</default>
+                <label>QC Analyst</label>
+            </value>
+            <value>
+                <fullName>QC Supervisor</fullName>
+                <default>false</default>
+                <label>QC Supervisor</label>
+            </value>
+            <value>
+                <fullName>Quality Operations</fullName>
+                <default>false</default>
+                <label>Quality Operations</label>
+            </value>
+            <value>
+                <fullName>EBR Designer</fullName>
+                <default>false</default>
+                <label>EBR Designer</label>
+            </value>
+            <value>
+                <fullName>System Admin</fullName>
+                <default>false</default>
+                <label>System Admin</label>
+            </value>
+            <value>
+                <fullName>BD Level 1</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BD Level 1</label>
+            </value>
+            <value>
+                <fullName>CSA/CSV Author/Executor/Reviewer/Approver</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CSA/CSV Author/Executor/Reviewer/Approver</label>
+            </value>
+            <value>
+                <fullName>CSA/CSV Executor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CSA/CSV Executor</label>
+            </value>
+            <value>
+                <fullName>CSA/CSV Power User</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CSA/CSV Power User</label>
+            </value>
+            <value>
+                <fullName>CSA/CSV Reviewer/Approver</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CSA/CSV Reviewer/Approver</label>
+            </value>
+            <value>
+                <fullName>General</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>General</label>
+            </value>
+            <value>
+                <fullName>HybridSystem Admin</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>HybridSystem Admin</label>
+            </value>
+            <value>
+                <fullName>HybridSystem SuperUser</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>HybridSystem SuperUser</label>
+            </value>
+            <value>
+                <fullName>HybridSystem User</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>HybridSystem User</label>
+            </value>
+            <value>
+                <fullName>Plate Reader Admin</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Plate Reader Admin</label>
+            </value>
+            <value>
+                <fullName>Plate Reader SuperUser</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Plate Reader SuperUser</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>PLA NanoDrops</controllingFieldValue>
+            <controllingFieldValue>QC ddPCRs</controllingFieldValue>
+            <controllingFieldValue>Lighthouse Portable</controllingFieldValue>
+            <controllingFieldValue>QC HPLC</controllingFieldValue>
+            <controllingFieldValue>QC Nanodrop</controllingFieldValue>
+            <controllingFieldValue>QC Osmometer</controllingFieldValue>
+            <controllingFieldValue>QC UltraRed</controllingFieldValue>
+            <controllingFieldValue>Ops Flowstar</controllingFieldValue>
+            <controllingFieldValue>Ops Autoclave</controllingFieldValue>
+            <controllingFieldValue>Ops Bioreactor</controllingFieldValue>
+            <controllingFieldValue>Ops FlexiPro</controllingFieldValue>
+            <controllingFieldValue>Ops MVP</controllingFieldValue>
+            <controllingFieldValue>Ops Nanodrop</controllingFieldValue>
+            <controllingFieldValue>QC qPCRs</controllingFieldValue>
+            <controllingFieldValue>OPS ViCell Blu</controllingFieldValue>
+            <controllingFieldValue>LabChip</controllingFieldValue>
+            <controllingFieldValue>QC Plate Readers</controllingFieldValue>
+            <controllingFieldValue>PLA XDR Fermenters</controllingFieldValue>
+            <valueName>User</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PLA NanoDrops</controllingFieldValue>
+            <controllingFieldValue>QC ddPCRs</controllingFieldValue>
+            <controllingFieldValue>Lighthouse Portable</controllingFieldValue>
+            <controllingFieldValue>QC HPLC</controllingFieldValue>
+            <controllingFieldValue>QC Nanodrop</controllingFieldValue>
+            <controllingFieldValue>QC Osmometer</controllingFieldValue>
+            <controllingFieldValue>QC UltraRed</controllingFieldValue>
+            <controllingFieldValue>Ops Flowstar</controllingFieldValue>
+            <controllingFieldValue>SAP</controllingFieldValue>
+            <controllingFieldValue>Ops Autoclave</controllingFieldValue>
+            <controllingFieldValue>Ops Bioreactor</controllingFieldValue>
+            <controllingFieldValue>Ops FlexiPro</controllingFieldValue>
+            <controllingFieldValue>Ops MVP</controllingFieldValue>
+            <controllingFieldValue>Ops Nanodrop</controllingFieldValue>
+            <controllingFieldValue>QC qPCRs</controllingFieldValue>
+            <controllingFieldValue>OPS ViCell Blu</controllingFieldValue>
+            <controllingFieldValue>LabChip</controllingFieldValue>
+            <controllingFieldValue>QC Plate Readers</controllingFieldValue>
+            <controllingFieldValue>PLA XDR Fermenters</controllingFieldValue>
+            <valueName>SuperUser</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PLA NanoDrops</controllingFieldValue>
+            <controllingFieldValue>QC ddPCRs</controllingFieldValue>
+            <controllingFieldValue>Lighthouse Portable</controllingFieldValue>
+            <controllingFieldValue>RES_Q</controllingFieldValue>
+            <controllingFieldValue>QC HPLC</controllingFieldValue>
+            <controllingFieldValue>QC Nanodrop</controllingFieldValue>
+            <controllingFieldValue>QC Osmometer</controllingFieldValue>
+            <controllingFieldValue>QC UltraRed</controllingFieldValue>
+            <controllingFieldValue>Ops Flowstar</controllingFieldValue>
+            <controllingFieldValue>Ops Autoclave</controllingFieldValue>
+            <controllingFieldValue>Ops Bioreactor</controllingFieldValue>
+            <controllingFieldValue>Ops FlexiPro</controllingFieldValue>
+            <controllingFieldValue>Ops MVP</controllingFieldValue>
+            <controllingFieldValue>Ops Nanodrop</controllingFieldValue>
+            <controllingFieldValue>QC qPCRs</controllingFieldValue>
+            <controllingFieldValue>OPS ViCell Blu</controllingFieldValue>
+            <controllingFieldValue>LabChip</controllingFieldValue>
+            <controllingFieldValue>QC Plate Readers</controllingFieldValue>
+            <controllingFieldValue>PLA XDR Fermenters</controllingFieldValue>
+            <valueName>Admin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Image Lab</controllingFieldValue>
+            <controllingFieldValue>BMRAM</controllingFieldValue>
+            <valueName>Supervisor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Image Lab</controllingFieldValue>
+            <controllingFieldValue>LabVantage</controllingFieldValue>
+            <controllingFieldValue>Tulip</controllingFieldValue>
+            <controllingFieldValue>Schneider BAS</controllingFieldValue>
+            <controllingFieldValue>TetraScience</controllingFieldValue>
+            <valueName>Administrator</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Image Lab</controllingFieldValue>
+            <valueName>Clinician</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Image Lab</controllingFieldValue>
+            <valueName>Reviewer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RES_Q</controllingFieldValue>
+            <valueName>Company Admin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RES_Q</controllingFieldValue>
+            <valueName>Editor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RES_Q</controllingFieldValue>
+            <valueName>Viewer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RES_Q</controllingFieldValue>
+            <valueName>Client</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAP</controllingFieldValue>
+            <valueName>Buyer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAP</controllingFieldValue>
+            <valueName>Finance Level 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAP</controllingFieldValue>
+            <valueName>Finance Level 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAP</controllingFieldValue>
+            <valueName>Goods Receipt</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAP</controllingFieldValue>
+            <valueName>Inventory Controller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAP</controllingFieldValue>
+            <valueName>Inventory Counting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAP</controllingFieldValue>
+            <valueName>Inventory Transfer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAP</controllingFieldValue>
+            <valueName>IQBO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAP</controllingFieldValue>
+            <valueName>Master Production Scheduler</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAP</controllingFieldValue>
+            <valueName>Material Handler</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAP</controllingFieldValue>
+            <valueName>Material User</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAP</controllingFieldValue>
+            <valueName>PMO Level 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAP</controllingFieldValue>
+            <valueName>Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAP</controllingFieldValue>
+            <valueName>Production Planner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAP</controllingFieldValue>
+            <valueName>Purchase Requester</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAP</controllingFieldValue>
+            <valueName>QA/QC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAP</controllingFieldValue>
+            <valueName>Read-Only</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAP</controllingFieldValue>
+            <valueName>Safety</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAP</controllingFieldValue>
+            <valueName>Shipper</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAP</controllingFieldValue>
+            <valueName>Supply Chain Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAP</controllingFieldValue>
+            <valueName>Vendor Agreement Specialist</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabVantage</controllingFieldValue>
+            <valueName>QC Lab Analyst</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabVantage</controllingFieldValue>
+            <valueName>QC Lab Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabVantage</controllingFieldValue>
+            <valueName>QC Logger</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabVantage</controllingFieldValue>
+            <valueName>QC Receiver</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabVantage</controllingFieldValue>
+            <valueName>QC Reviewer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabVantage</controllingFieldValue>
+            <valueName>QC SME</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabVantage</controllingFieldValue>
+            <valueName>QC Batch Creator</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabVantage</controllingFieldValue>
+            <valueName>QC Stab Analyst</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabVantage</controllingFieldValue>
+            <valueName>QC Stab Coordinator</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabVantage</controllingFieldValue>
+            <valueName>AD Lab Analyst</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabVantage</controllingFieldValue>
+            <valueName>AD Lab Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabVantage</controllingFieldValue>
+            <valueName>AD Logger</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabVantage</controllingFieldValue>
+            <valueName>AD Receiver</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabVantage</controllingFieldValue>
+            <valueName>AD Reviewer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabVantage</controllingFieldValue>
+            <valueName>AD SME</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabVantage</controllingFieldValue>
+            <valueName>AD Stab Analyst</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabVantage</controllingFieldValue>
+            <valueName>AD Stab Coordinator</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabVantage</controllingFieldValue>
+            <valueName>CCG Analyst</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabVantage</controllingFieldValue>
+            <valueName>CCG Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabVantage</controllingFieldValue>
+            <valueName>Operations (CPP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabVantage</controllingFieldValue>
+            <valueName>Operations (EM)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabVantage</controllingFieldValue>
+            <valueName>Plasmids (CPP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabVantage</controllingFieldValue>
+            <valueName>Plasmids (EM)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabVantage</controllingFieldValue>
+            <valueName>QA Approve</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabVantage</controllingFieldValue>
+            <valueName>QA Technical Review</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabVantage</controllingFieldValue>
+            <valueName>Reagent Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabVantage</controllingFieldValue>
+            <valueName>Operations Collector</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabVantage</controllingFieldValue>
+            <valueName>Plasmids Collector</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabVantage</controllingFieldValue>
+            <valueName>Data View</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LabVantage</controllingFieldValue>
+            <valueName>Master Data Builder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tulip</controllingFieldValue>
+            <valueName>Account Owner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tulip</controllingFieldValue>
+            <valueName>Operator</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tulip</controllingFieldValue>
+            <valueName>Tulip Table Supervisor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tempo</controllingFieldValue>
+            <valueName>View Only</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tempo</controllingFieldValue>
+            <controllingFieldValue>BMRAM</controllingFieldValue>
+            <valueName>Quality Assurance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tempo</controllingFieldValue>
+            <valueName>Cleaning Operator</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tempo</controllingFieldValue>
+            <valueName>Cleaning Supervisor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tempo</controllingFieldValue>
+            <valueName>Operations Operator</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tempo</controllingFieldValue>
+            <valueName>Operations Supervisor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tempo</controllingFieldValue>
+            <valueName>Plasmids Operator</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tempo</controllingFieldValue>
+            <valueName>Plasmids Supervisor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tempo</controllingFieldValue>
+            <valueName>QC Analyst</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tempo</controllingFieldValue>
+            <valueName>QC Supervisor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tempo</controllingFieldValue>
+            <valueName>Quality Operations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tempo</controllingFieldValue>
+            <valueName>EBR Designer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tempo</controllingFieldValue>
+            <valueName>System Admin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trackwise</controllingFieldValue>
+            <valueName>DMS User</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trackwise</controllingFieldValue>
+            <valueName>DMS Admin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trackwise</controllingFieldValue>
+            <valueName>Pharma Owner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trackwise</controllingFieldValue>
+            <valueName>CAPA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trackwise</controllingFieldValue>
+            <valueName>Change Control</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trackwise</controllingFieldValue>
+            <valueName>Quality Events</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trackwise</controllingFieldValue>
+            <valueName>Security</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trackwise</controllingFieldValue>
+            <valueName>Observation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trackwise</controllingFieldValue>
+            <valueName>Owner Transfer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schneider BAS</controllingFieldValue>
+            <controllingFieldValue>TetraScience</controllingFieldValue>
+            <valueName>General User</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schneider BAS</controllingFieldValue>
+            <valueName>Alarm User</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schneider BAS</controllingFieldValue>
+            <valueName>Engineering User</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMRAM</controllingFieldValue>
+            <valueName>Business Administrator</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMRAM</controllingFieldValue>
+            <valueName>Coordinator</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMRAM</controllingFieldValue>
+            <valueName>Engineering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMRAM</controllingFieldValue>
+            <valueName>Non GxP Reviewer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMRAM</controllingFieldValue>
+            <valueName>Query Administrator</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMRAM</controllingFieldValue>
+            <valueName>System Administrator</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMRAM</controllingFieldValue>
+            <valueName>Technician</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMRAM</controllingFieldValue>
+            <valueName>Work Requester</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TetraScience</controllingFieldValue>
+            <valueName>Data Packet App</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>8</visibleLines>
+</CustomField>

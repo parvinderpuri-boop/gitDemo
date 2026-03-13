@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assessment_Result_Comment_Value_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+   ISPICKVAL( Assessment_Reason__c , &quot;Other&quot;),
+   ISBLANK( Comment__c )
+)</errorConditionFormula>
+    <errorMessage>Comment field needs to be captured .</errorMessage>
+</ValidationRule>

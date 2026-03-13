@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Periodic_Review_Cycle_months__c</fullName>
+    <defaultValue>24</defaultValue>
+    <description>Periodic Review Cycle (months)</description>
+    <externalId>false</externalId>
+    <label>Periodic Review Cycle (24 months)</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

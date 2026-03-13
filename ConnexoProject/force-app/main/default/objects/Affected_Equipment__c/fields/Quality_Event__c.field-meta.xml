@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quality_Event__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Quality Event</label>
+    <referenceTo>CMPL123QMS__Deviation__c</referenceTo>
+    <relationshipLabel>Affected Equipment</relationshipLabel>
+    <relationshipName>Affected_Equipment</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

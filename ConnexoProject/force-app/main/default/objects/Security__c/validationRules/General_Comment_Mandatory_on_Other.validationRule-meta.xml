@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>General_Comment_Mandatory_on_Other</fullName>
+    <active>true</active>
+    <description>Make General Comments field mandatory if Module__c value is set to Other</description>
+    <errorConditionFormula>AND(
+    ISBLANK(General_Comments__c),
+    INCLUDES(Module__c, &quot;Other&quot;)
+)</errorConditionFormula>
+    <errorDisplayField>General_Comments__c</errorDisplayField>
+    <errorMessage>General Comments is mandatory if Module is set to Other</errorMessage>
+</ValidationRule>

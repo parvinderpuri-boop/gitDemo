@@ -1,0 +1,64 @@
+<template>
+    <lightning-card title="CAPA Review">
+        <div class="slds-p-around_medium">
+
+            <!-- VIEW MODE -->
+            <template if:false={isEditing}>
+                <table class="lir-table">
+                    <tr>
+                        <th>Yes</th>
+                        <th>No</th>
+                        <th>N/A</th>
+                    </tr>
+                    <tr>
+                        <td class={yesClass}>Yes</td>
+                        <td class={noClass}>No</td>
+                        <td class={naClass}>N/A</td>
+                    </tr>
+                </table>
+
+                <lightning-button
+                    label="Edit"
+                    onclick={handleEdit}
+                    class="slds-m-top_medium">
+                </lightning-button>
+            </template>
+
+            <!-- EDIT MODE -->
+            <template if:true={isEditing}>
+                <table class="lir-table">
+                    <tr>
+                        <th>Yes</th>
+                        <th>No</th>
+                        <th>N/A</th>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <lightning-radio-group
+                                options={options}
+                                value={draftValue}
+                                type="button"
+                                onchange={handleChange}>
+                            </lightning-radio-group>
+                        </td>
+                    </tr>
+                </table>
+
+                <div class="slds-m-top_medium">
+                    <lightning-button
+                        label="Save"
+                        variant="brand"
+                        onclick={handleSave}>
+                    </lightning-button>
+
+                    <lightning-button
+                        label="Cancel"
+                        onclick={handleCancel}
+                        class="slds-m-left_small">
+                    </lightning-button>
+                </div>
+            </template>
+
+        </div>
+    </lightning-card>
+</template>

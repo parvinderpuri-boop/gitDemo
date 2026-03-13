@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Alarm_Alert_List__c</fullName>
+    <externalId>false</externalId>
+    <label>Alarm Alert List</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>System__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>All Manufacturing Suites Equipment</fullName>
+                <default>false</default>
+                <label>All Manufacturing Suites Equipment</label>
+            </value>
+            <value>
+                <fullName>All Manufacturing Suites Room</fullName>
+                <default>false</default>
+                <label>All Manufacturing Suites Room</label>
+            </value>
+            <value>
+                <fullName>Autoclave Room</fullName>
+                <default>false</default>
+                <label>Autoclave Room</label>
+            </value>
+            <value>
+                <fullName>Cold Room 1 &amp; 2 Room</fullName>
+                <default>false</default>
+                <label>Cold Room 1 &amp; 2 Room</label>
+            </value>
+            <value>
+                <fullName>Corridors Equipment</fullName>
+                <default>false</default>
+                <label>Corridors Equipment</label>
+            </value>
+            <value>
+                <fullName>Corridors Room</fullName>
+                <default>false</default>
+                <label>Corridors Room</label>
+            </value>
+            <value>
+                <fullName>CP1 &amp; CP2 Equipment</fullName>
+                <default>false</default>
+                <label>CP1 &amp; CP2 Equipment</label>
+            </value>
+            <value>
+                <fullName>CP1 &amp; CP2 Room</fullName>
+                <default>false</default>
+                <label>CP1 &amp; CP2 Room</label>
+            </value>
+            <value>
+                <fullName>FT1 Equipment</fullName>
+                <default>false</default>
+                <label>FT1 Equipment</label>
+            </value>
+            <value>
+                <fullName>FT1 Room</fullName>
+                <default>false</default>
+                <label>FT1 Room</label>
+            </value>
+            <value>
+                <fullName>GMP Warehouse &amp; Freezer Farm Equipment</fullName>
+                <default>false</default>
+                <label>GMP Warehouse &amp; Freezer Farm Equipment</label>
+            </value>
+            <value>
+                <fullName>GMP Warehouse &amp; Freezer Farm Room</fullName>
+                <default>false</default>
+                <label>GMP Warehouse &amp; Freezer Farm Room</label>
+            </value>
+            <value>
+                <fullName>Locker Room Personnel Airlock In &amp; Out Room</fullName>
+                <default>false</default>
+                <label>Locker Room Personnel Airlock In &amp; Out Room</label>
+            </value>
+            <value>
+                <fullName>MF1 &amp; MF2 Equipment</fullName>
+                <default>false</default>
+                <label>MF1 &amp; MF2 Equipment</label>
+            </value>
+            <value>
+                <fullName>MF1 &amp; MF2 Room</fullName>
+                <default>false</default>
+                <label>MF1 &amp; MF2 Room</label>
+            </value>
+            <value>
+                <fullName>PR1 &amp; PR2 Equipment</fullName>
+                <default>false</default>
+                <label>PR1 &amp; PR2 Equipment</label>
+            </value>
+            <value>
+                <fullName>PR1 &amp; PR2 Room</fullName>
+                <default>false</default>
+                <label>PR1 &amp; PR2 Room</label>
+            </value>
+            <value>
+                <fullName>SP1 Equipment</fullName>
+                <default>false</default>
+                <label>SP1 Equipment</label>
+            </value>
+            <value>
+                <fullName>SP1 Room</fullName>
+                <default>false</default>
+                <label>SP1 Room</label>
+            </value>
+            <value>
+                <fullName>Waste Out and Material Out Room</fullName>
+                <default>false</default>
+                <label>Waste Out and Material Out Room</label>
+            </value>
+            <value>
+                <fullName>WD1 Room</fullName>
+                <default>false</default>
+                <label>WD1 Room</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Schneider BAS</controllingFieldValue>
+            <valueName>All Manufacturing Suites Equipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schneider BAS</controllingFieldValue>
+            <valueName>All Manufacturing Suites Room</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schneider BAS</controllingFieldValue>
+            <valueName>Autoclave Room</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schneider BAS</controllingFieldValue>
+            <valueName>Cold Room 1 &amp; 2 Room</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schneider BAS</controllingFieldValue>
+            <valueName>Corridors Equipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schneider BAS</controllingFieldValue>
+            <valueName>Corridors Room</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schneider BAS</controllingFieldValue>
+            <valueName>CP1 &amp; CP2 Equipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schneider BAS</controllingFieldValue>
+            <valueName>CP1 &amp; CP2 Room</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schneider BAS</controllingFieldValue>
+            <valueName>FT1 Equipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schneider BAS</controllingFieldValue>
+            <valueName>FT1 Room</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schneider BAS</controllingFieldValue>
+            <valueName>GMP Warehouse &amp; Freezer Farm Equipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schneider BAS</controllingFieldValue>
+            <valueName>GMP Warehouse &amp; Freezer Farm Room</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schneider BAS</controllingFieldValue>
+            <valueName>Locker Room Personnel Airlock In &amp; Out Room</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schneider BAS</controllingFieldValue>
+            <valueName>MF1 &amp; MF2 Equipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schneider BAS</controllingFieldValue>
+            <valueName>MF1 &amp; MF2 Room</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schneider BAS</controllingFieldValue>
+            <valueName>PR1 &amp; PR2 Equipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schneider BAS</controllingFieldValue>
+            <valueName>PR1 &amp; PR2 Room</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schneider BAS</controllingFieldValue>
+            <valueName>SP1 Equipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schneider BAS</controllingFieldValue>
+            <valueName>SP1 Room</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schneider BAS</controllingFieldValue>
+            <valueName>Waste Out and Material Out Room</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schneider BAS</controllingFieldValue>
+            <valueName>WD1 Room</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QA_Cannot_Perform_QA_Approve_and_Cls_Obs</fullName>
+    <active>true</active>
+    <description>Same QA User cannot perform &apos; QA Assessment Review - Close Observation and QA Approve workflow actions</description>
+    <errorConditionFormula>AND(CMPL123_WF_Action__c = &quot;QA Approve&quot;,$User.Id = workflowuser__c )</errorConditionFormula>
+    <errorMessage>Same Quality User cannot perform &apos; QA Assessment Review - Close Observation&apos; and &apos;QA Approve&apos; workflow actions</errorMessage>
+</ValidationRule>

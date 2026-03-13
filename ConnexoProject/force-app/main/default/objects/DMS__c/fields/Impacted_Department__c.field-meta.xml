@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Impacted_Department__c</fullName>
+    <externalId>false</externalId>
+    <label>Impacted Department</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Information Technology (IT)</fullName>
+                <default>false</default>
+                <label>Information Technology (IT)</label>
+            </value>
+            <value>
+                <fullName>Supply Chain / Materials Management (SC)</fullName>
+                <default>false</default>
+                <label>Supply Chain / Materials Management (SC)</label>
+            </value>
+            <value>
+                <fullName>Quality Management (QM)</fullName>
+                <default>false</default>
+                <label>Quality Management (QM)</label>
+            </value>
+            <value>
+                <fullName>Production (PR)</fullName>
+                <default>false</default>
+                <label>Production (PR)</label>
+            </value>
+            <value>
+                <fullName>Environmental Health and Safety (HS)</fullName>
+                <default>false</default>
+                <label>Environmental Health and Safety (HS)</label>
+            </value>
+            <value>
+                <fullName>Facilities and Equipment (FE)</fullName>
+                <default>false</default>
+                <label>Facilities and Equipment (FE)</label>
+            </value>
+            <value>
+                <fullName>Laboratory (QC)</fullName>
+                <default>false</default>
+                <label>Laboratory (QC)</label>
+            </value>
+            <value>
+                <fullName>Process Development (PD)</fullName>
+                <default>false</default>
+                <label>Process Development (PD)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

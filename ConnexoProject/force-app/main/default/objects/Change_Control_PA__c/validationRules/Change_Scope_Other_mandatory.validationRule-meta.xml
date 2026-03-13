@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Change_Scope_Other_mandatory</fullName>
+    <active>true</active>
+    <description>If Change Scope is Other then Change Scope Comment field is required .</description>
+    <errorConditionFormula>AND(INCLUDES( Change_Scope__c , &quot;Other&quot;), ISBLANK( Change_Scope_Comment__c ))</errorConditionFormula>
+    <errorDisplayField>Change_Scope_Comment__c</errorDisplayField>
+    <errorMessage>“Product” is missing on Change Scope List</errorMessage>
+</ValidationRule>

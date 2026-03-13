@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Delay_time_should_be_between_1_to_90_num</fullName>
+    <active>true</active>
+    <errorConditionFormula>( Delay_Time__c &lt; 1 ||  Delay_Time__c  &gt; 90 )</errorConditionFormula>
+    <errorDisplayField>Delay_Time__c</errorDisplayField>
+    <errorMessage>Delay time should be between 1 and 90 days</errorMessage>
+</ValidationRule>

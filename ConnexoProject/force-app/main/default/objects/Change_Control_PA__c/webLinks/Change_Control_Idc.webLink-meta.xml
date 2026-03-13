@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Change_Control_Idc</fullName>
+    <availability>online</availability>
+    <description>This button was created by TrackWise Digital to check the status of the Related List - Change Control-Change Control Pre-Assessment(Change Control Id).</description>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>New Change Control Pre-Assessment (Change Control Id)</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>/apex/CMPL123__LockRecord?objectType=Change_Control_PA__c&amp;parentId={!CMPL123QMS__Change_Control__c.Id}&amp;relationShipName=Change_Control_Pre_Assessments__r&amp;lookupField=Change_Control_Id__c&amp;parentRecordName={!CMPL123QMS__Change_Control__c.Name}&amp;isRDC=false</url>
+</WebLink>

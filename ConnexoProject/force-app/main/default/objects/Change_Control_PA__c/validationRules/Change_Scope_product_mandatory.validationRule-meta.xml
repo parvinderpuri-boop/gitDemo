@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Change_Scope_product_mandatory</fullName>
+    <active>true</active>
+    <description>If Change Scope is product then &apos; List Impacted Product &apos; field is required .</description>
+    <errorConditionFormula>AND(INCLUDES( Change_Scope__c , &quot;product&quot;), ISBLANK(  List_Impacted_Product__c ))</errorConditionFormula>
+    <errorDisplayField>List_Impacted_Product__c</errorDisplayField>
+    <errorMessage>If Change Scope is product then &apos; List Impacted Product &apos; field is required .</errorMessage>
+</ValidationRule>

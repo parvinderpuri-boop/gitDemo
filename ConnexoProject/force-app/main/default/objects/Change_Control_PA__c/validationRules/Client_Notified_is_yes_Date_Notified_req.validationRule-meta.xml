@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_Notified_is_yes_Date_Notified_req</fullName>
+    <active>true</active>
+    <description>If Client notified is Yes then Date Notified is required</description>
+    <errorConditionFormula>AND(ISPICKVAL( Client_Notified__c ,&quot;Yes&quot;),ISBLANK( Date_Notified__c ))</errorConditionFormula>
+    <errorDisplayField>Date_Notified__c</errorDisplayField>
+    <errorMessage>Date Notified is required</errorMessage>
+</ValidationRule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assessment_reason_comment__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>If Assessment Reason is Request Denied then reason comment field is required.</inlineHelpText>
+    <label>Assessment reason comment</label>
+    <length>50</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

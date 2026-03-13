@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Impacted_Department_Comment_mandatory</fullName>
+    <active>true</active>
+    <description>If Impacted Department/Group is Other then Department Other field is required.</description>
+    <errorConditionFormula>AND(INCLUDES( Impacted_Department__c , &quot;Other&quot;), ISBLANK(  Department_Other__c ))</errorConditionFormula>
+    <errorDisplayField>Department_Other__c</errorDisplayField>
+    <errorMessage>If Impacted Department/Group is Other then Department Other field is required .</errorMessage>
+</ValidationRule>

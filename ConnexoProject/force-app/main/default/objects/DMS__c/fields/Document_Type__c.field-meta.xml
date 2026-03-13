@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Document_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Document Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>AD Certificate of Analysis (ADCOA)</fullName>
+                <default>false</default>
+                <label>AD Certificate of Analysis (ADCOA)</label>
+            </value>
+            <value>
+                <fullName>AD R&amp;D Study Protocol (ADRDP)</fullName>
+                <default>false</default>
+                <label>AD R&amp;D Study Protocol (ADRDP)</label>
+            </value>
+            <value>
+                <fullName>BOM</fullName>
+                <default>false</default>
+                <label>BOM</label>
+            </value>
+            <value>
+                <fullName>Bundle (BND)</fullName>
+                <default>false</default>
+                <label>Bundle (BND)</label>
+            </value>
+            <value>
+                <fullName>Cell Bank Process Plan (CBPP)</fullName>
+                <default>false</default>
+                <label>Cell Bank Process Plan (CBPP)</label>
+            </value>
+            <value>
+                <fullName>Certificate of Analysis (CoA)</fullName>
+                <default>false</default>
+                <label>Certificate of Analysis (CoA)</label>
+            </value>
+            <value>
+                <fullName>Certificate of Testing (CoT)</fullName>
+                <default>false</default>
+                <label>Certificate of Testing (CoT)</label>
+            </value>
+            <value>
+                <fullName>Change Control Request (Legacy) (CCR)</fullName>
+                <default>false</default>
+                <label>Change Control Request (Legacy) (CCR)</label>
+            </value>
+            <value>
+                <fullName>Controlled Document (CD)</fullName>
+                <default>false</default>
+                <label>Controlled Document (CD)</label>
+            </value>
+            <value>
+                <fullName>Electronic Form (EF)</fullName>
+                <default>false</default>
+                <label>Electronic Form (EF)</label>
+            </value>
+            <value>
+                <fullName>Equipment Classification Change (ECC</fullName>
+                <default>false</default>
+                <label>Equipment Classification Change (ECC</label>
+            </value>
+            <value>
+                <fullName>Equipment Risk Assessment (ERA)</fullName>
+                <default>false</default>
+                <label>Equipment Risk Assessment (ERA)</label>
+            </value>
+            <value>
+                <fullName>Equipment Validation Package (EVP)</fullName>
+                <default>false</default>
+                <label>Equipment Validation Package (EVP)</label>
+            </value>
+            <value>
+                <fullName>Facility Validation Package (VP)</fullName>
+                <default>false</default>
+                <label>Facility Validation Package (VP)</label>
+            </value>
+            <value>
+                <fullName>Form (FRM)</fullName>
+                <default>false</default>
+                <label>Form (FRM)</label>
+            </value>
+            <value>
+                <fullName>Form (Legacy) (Form)</fullName>
+                <default>false</default>
+                <label>Form (Legacy) (Form)</label>
+            </value>
+            <value>
+                <fullName>General Method (GENMD)</fullName>
+                <default>false</default>
+                <label>General Method (GENMD)</label>
+            </value>
+            <value>
+                <fullName>General Method (GMD)</fullName>
+                <default>false</default>
+                <label>General Method (GMD)</label>
+            </value>
+            <value>
+                <fullName>Job Aid (Legacy) (JA)</fullName>
+                <default>false</default>
+                <label>Job Aid (Legacy) (JA)</label>
+            </value>
+            <value>
+                <fullName>Laboratory Investigation Report (LIR)</fullName>
+                <default>false</default>
+                <label>Laboratory Investigation Report (LIR)</label>
+            </value>
+            <value>
+                <fullName>Master Batch Record (MBR)</fullName>
+                <default>false</default>
+                <label>Master Batch Record (MBR)</label>
+            </value>
+            <value>
+                <fullName>Material Release Specification (Legacy) (MRSPEC)</fullName>
+                <default>false</default>
+                <label>Material Release Specification (Legacy) (MRSPEC)</label>
+            </value>
+            <value>
+                <fullName>Material Specification (SPEC)</fullName>
+                <default>false</default>
+                <label>Material Specification (SPEC)</label>
+            </value>
+            <value>
+                <fullName>Method (Legacy) (MD)</fullName>
+                <default>false</default>
+                <label>Method (Legacy) (MD)</label>
+            </value>
+            <value>
+                <fullName>MR - MRSPEC</fullName>
+                <default>false</default>
+                <label>MR - MRSPEC</label>
+            </value>
+            <value>
+                <fullName>PD Test Document</fullName>
+                <default>false</default>
+                <label>PD Test Document</label>
+            </value>
+            <value>
+                <fullName>Plasmid Standard Qualification Specification (PSQSPEC)</fullName>
+                <default>false</default>
+                <label>Plasmid Standard Qualification Specification (PSQSPEC)</label>
+            </value>
+            <value>
+                <fullName>Policy (POL)</fullName>
+                <default>false</default>
+                <label>Policy (POL)</label>
+            </value>
+            <value>
+                <fullName>Process Risk Assessment (PRA)</fullName>
+                <default>false</default>
+                <label>Process Risk Assessment (PRA)</label>
+            </value>
+            <value>
+                <fullName>Quality Assurance Agreements (QAA)</fullName>
+                <default>false</default>
+                <label>Quality Assurance Agreements (QAA)</label>
+            </value>
+            <value>
+                <fullName>Record (RCD)</fullName>
+                <default>false</default>
+                <label>Record (RCD)</label>
+            </value>
+            <value>
+                <fullName>Risk Assessment (Legacy) (RA)</fullName>
+                <default>false</default>
+                <label>Risk Assessment (Legacy) (RA)</label>
+            </value>
+            <value>
+                <fullName>Specific Method (SMD)</fullName>
+                <default>false</default>
+                <label>Specific Method (SMD)</label>
+            </value>
+            <value>
+                <fullName>Specific Method (SPECMD)</fullName>
+                <default>false</default>
+                <label>Specific Method (SPECMD)</label>
+            </value>
+            <value>
+                <fullName>Stability Study Protocol (SP)</fullName>
+                <default>false</default>
+                <label>Stability Study Protocol (SP)</label>
+            </value>
+            <value>
+                <fullName>Stability Study Summary Report (SR)</fullName>
+                <default>false</default>
+                <label>Stability Study Summary Report (SR)</label>
+            </value>
+            <value>
+                <fullName>Standard Operating Procedure (Legacy) (SOP)</fullName>
+                <default>false</default>
+                <label>Standard Operating Procedure (Legacy) (SOP)</label>
+            </value>
+            <value>
+                <fullName>Standard Operating Procedure (SOP)</fullName>
+                <default>false</default>
+                <label>Standard Operating Procedure (SOP)</label>
+            </value>
+            <value>
+                <fullName>Technical Protocol (TP)</fullName>
+                <default>false</default>
+                <label>Technical Protocol (TP)</label>
+            </value>
+            <value>
+                <fullName>Technical Protocol Summary Report (TS)</fullName>
+                <default>false</default>
+                <label>Technical Protocol Summary Report (TS)</label>
+            </value>
+            <value>
+                <fullName>Technical Report (TR)</fullName>
+                <default>false</default>
+                <label>Technical Report (TR)</label>
+            </value>
+            <value>
+                <fullName>Template (TPT)</fullName>
+                <default>false</default>
+                <label>Template (TPT)</label>
+            </value>
+            <value>
+                <fullName>Test Training Document</fullName>
+                <default>false</default>
+                <label>Test Training Document</label>
+            </value>
+            <value>
+                <fullName>validation periodic review-test</fullName>
+                <default>false</default>
+                <label>validation periodic review-test</label>
+            </value>
+            <value>
+                <fullName>Work Instruction (WIN)</fullName>
+                <default>false</default>
+                <label>Work Instruction (WIN)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

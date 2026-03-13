@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deviationc</fullName>
+    <availability>online</availability>
+    <description>This button was created by TrackWise Digital to check the status of the Related List - Quality Event-Observation(Deviation).</description>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>New Observation (Deviation)</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>/apex/CMPL123__LockRecord?objectType=Observation__c&amp;parentId={!CMPL123QMS__Deviation__c.Id}&amp;relationShipName=Observations__r&amp;lookupField=Deviation__c&amp;parentRecordName={!CMPL123QMS__Deviation__c.Name}&amp;isRDC=false</url>
+</WebLink>

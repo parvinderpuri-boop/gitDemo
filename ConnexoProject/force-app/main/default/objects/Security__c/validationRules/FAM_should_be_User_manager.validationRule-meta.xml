@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FAM_should_be_User_manager</fullName>
+    <active>false</active>
+    <errorConditionFormula>Owner:User.ManagerId &lt;&gt; $User.Id</errorConditionFormula>
+    <errorMessage>Please select requester&apos;s manager for Functional Area Manager field</errorMessage>
+</ValidationRule>

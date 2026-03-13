@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Risk_Analysis__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Define potential issues that can negatively impact the business process.</inlineHelpText>
+    <label>Risk Analysis</label>
+    <length>4000</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

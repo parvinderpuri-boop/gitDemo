@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Public_Group_Name__c</fullName>
+    <externalId>false</externalId>
+    <label>Public Group Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Andelyn QA</fullName>
+                <default>false</default>
+                <label>Andelyn QA</label>
+            </value>
+            <value>
+                <fullName>General User</fullName>
+                <default>false</default>
+                <label>General User</label>
+            </value>
+            <value>
+                <fullName>Area Management</fullName>
+                <default>false</default>
+                <label>Area Management</label>
+            </value>
+            <value>
+                <fullName>Audit Quality</fullName>
+                <default>false</default>
+                <label>Audit Quality</label>
+            </value>
+            <value>
+                <fullName>Auditee</fullName>
+                <default>false</default>
+                <label>Auditee</label>
+            </value>
+            <value>
+                <fullName>Auditors</fullName>
+                <default>false</default>
+                <label>Auditors</label>
+            </value>
+            <value>
+                <fullName>Automation</fullName>
+                <default>false</default>
+                <label>Automation</label>
+            </value>
+            <value>
+                <fullName>CAPA Initiator</fullName>
+                <default>false</default>
+                <label>CAPA Initiator</label>
+            </value>
+            <value>
+                <fullName>CAPA Owner</fullName>
+                <default>false</default>
+                <label>CAPA Owner</label>
+            </value>
+            <value>
+                <fullName>CAPA Quality</fullName>
+                <default>false</default>
+                <label>CAPA Quality</label>
+            </value>
+            <value>
+                <fullName>Change Control Owner</fullName>
+                <default>false</default>
+                <label>Change Control Owner</label>
+            </value>
+            <value>
+                <fullName>Change Control QA</fullName>
+                <default>false</default>
+                <label>Change Control QA</label>
+            </value>
+            <value>
+                <fullName>Change Initiator</fullName>
+                <default>false</default>
+                <label>Change Initiator</label>
+            </value>
+            <value>
+                <fullName>Complaint Entry</fullName>
+                <default>false</default>
+                <label>Complaint Entry</label>
+            </value>
+            <value>
+                <fullName>Complaint Investigator</fullName>
+                <default>false</default>
+                <label>Complaint Investigator</label>
+            </value>
+            <value>
+                <fullName>Complaint Review and Approval</fullName>
+                <default>false</default>
+                <label>Complaint Review and Approval</label>
+            </value>
+            <value>
+                <fullName>Cross Functional Team</fullName>
+                <default>false</default>
+                <label>Cross Functional Team</label>
+            </value>
+            <value>
+                <fullName>DMS Viewer</fullName>
+                <default>false</default>
+                <label>DMS Viewer</label>
+            </value>
+            <value>
+                <fullName>Investigation Owner</fullName>
+                <default>false</default>
+                <label>Investigation Owner</label>
+            </value>
+            <value>
+                <fullName>Owner</fullName>
+                <default>false</default>
+                <label>Owner</label>
+            </value>
+            <value>
+                <fullName>QA</fullName>
+                <default>false</default>
+                <label>QA</label>
+            </value>
+            <value>
+                <fullName>Quality</fullName>
+                <default>false</default>
+                <label>Quality</label>
+            </value>
+            <value>
+                <fullName>Quality Event Owner</fullName>
+                <default>false</default>
+                <label>Quality Event Owner</label>
+            </value>
+            <value>
+                <fullName>Requestor</fullName>
+                <default>false</default>
+                <label>Requestor</label>
+            </value>
+            <value>
+                <fullName>Reviewer</fullName>
+                <default>false</default>
+                <label>Reviewer</label>
+            </value>
+            <value>
+                <fullName>SME</fullName>
+                <default>false</default>
+                <label>SME</label>
+            </value>
+            <value>
+                <fullName>Vendor</fullName>
+                <default>false</default>
+                <label>Vendor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

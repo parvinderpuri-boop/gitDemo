@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Impact_Analysis__c</fullName>
+    <description>Impact Analysis</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Define potential consequences of the observation that should be considered during review process.</inlineHelpText>
+    <label>Impact Analysis</label>
+    <length>4000</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

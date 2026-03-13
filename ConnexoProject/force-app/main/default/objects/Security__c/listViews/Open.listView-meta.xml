@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Open</fullName>
+    <columns>NAME</columns>
+    <columns>Short_Description__c</columns>
+    <columns>System__c</columns>
+    <columns>Action__c</columns>
+    <columns>UserName__c</columns>
+    <columns>Due_Date__c</columns>
+    <columns>Functional_Area_Manager__c</columns>
+    <columns>CMPL123_WF_Status__c</columns>
+    <columns>CMPL123_WF_Action__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CMPL123_WF_Status__c</field>
+        <operation>notEqual</operation>
+        <value>Closed,Canceled</value>
+    </filters>
+    <label>Open</label>
+</ListView>

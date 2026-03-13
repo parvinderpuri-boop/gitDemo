@@ -1,0 +1,17 @@
+.lir-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.lir-table th,
+.lir-table td {
+    border: 1px solid #d8dde6;
+    padding: 10px;
+}
+
+.selected {
+    background-color: #eef4ff;
+    font-weight: 700;
+    border: 2px solid #1b96ff;
+}

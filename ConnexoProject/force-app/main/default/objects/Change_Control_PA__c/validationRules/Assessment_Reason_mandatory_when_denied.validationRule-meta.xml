@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assessment_Reason_mandatory_when_denied</fullName>
+    <active>true</active>
+    <description>When the Assessment Reason request is denied, reason is mandatory .</description>
+    <errorConditionFormula>AND(ISPICKVAL( Assessment_Reason__c , &quot;Request Denied&quot;), ISBLANK(  Assessment_reason_comment__c ))</errorConditionFormula>
+    <errorDisplayField>Assessment_reason_comment__c</errorDisplayField>
+    <errorMessage>If Assessment Reason is Request Denied then reason comment field is required.</errorMessage>
+</ValidationRule>

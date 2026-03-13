@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Explain_Why_Priority_Is_High</fullName>
+    <active>true</active>
+    <description>When priority is Yes then field &apos; Explain Why Priority Is High &apos; is mandatory</description>
+    <errorConditionFormula>AND(
+ISPICKVAL( Priority__c , &quot;High&quot;),
+ISBLANK( Explain_Why_Priority_Is_High__c)
+)</errorConditionFormula>
+    <errorDisplayField>Explain_Why_Priority_Is_High__c</errorDisplayField>
+    <errorMessage>When Priority/Urgency field is High then field &apos; Explain Why Priority Is High &apos; is mandatory</errorMessage>
+</ValidationRule>

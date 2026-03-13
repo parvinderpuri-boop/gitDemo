@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Change_Scope__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Select all applicable</inlineHelpText>
+    <label>Change Scope</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Analytical Testing/Analysis</fullName>
+                <default>false</default>
+                <label>Analytical Testing/Analysis</label>
+            </value>
+            <value>
+                <fullName>Equipment/Parts</fullName>
+                <default>false</default>
+                <label>Equipment/Parts</label>
+            </value>
+            <value>
+                <fullName>Existing Supplier/Vendor</fullName>
+                <default>false</default>
+                <label>Existing Supplier/Vendor</label>
+            </value>
+            <value>
+                <fullName>Materials</fullName>
+                <default>false</default>
+                <label>Materials</label>
+            </value>
+            <value>
+                <fullName>New Supplier/Vendor</fullName>
+                <default>false</default>
+                <label>New Supplier/Vendor</label>
+            </value>
+            <value>
+                <fullName>Procedure</fullName>
+                <default>false</default>
+                <label>Procedure</label>
+            </value>
+            <value>
+                <fullName>Process</fullName>
+                <default>false</default>
+                <label>Process</label>
+            </value>
+            <value>
+                <fullName>Starting Material</fullName>
+                <default>false</default>
+                <label>Starting Material</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Business Team</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Business Team</label>
+            </value>
+            <value>
+                <fullName>Current Supplier</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Current Supplier</label>
+            </value>
+            <value>
+                <fullName>Document</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Document</label>
+            </value>
+            <value>
+                <fullName>Drug &amp; Device Development</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Drug &amp; Device Development</label>
+            </value>
+            <value>
+                <fullName>Engineering</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Engineering</label>
+            </value>
+            <value>
+                <fullName>Equipment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Equipment</label>
+            </value>
+            <value>
+                <fullName>Facilities</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Facilities</label>
+            </value>
+            <value>
+                <fullName>IT</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>IT</label>
+            </value>
+            <value>
+                <fullName>Learning &amp; Development</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Learning &amp; Development</label>
+            </value>
+            <value>
+                <fullName>Manufacturing</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Materials Management</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Materials Management</label>
+            </value>
+            <value>
+                <fullName>Metrology</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Metrology</label>
+            </value>
+            <value>
+                <fullName>New Supplier</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>New Supplier</label>
+            </value>
+            <value>
+                <fullName>Packaging &amp; Labeling</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Packaging &amp; Labeling</label>
+            </value>
+            <value>
+                <fullName>Product</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Product</label>
+            </value>
+            <value>
+                <fullName>Product Development</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Product Development</label>
+            </value>
+            <value>
+                <fullName>Quality Assurance</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Quality Assurance</label>
+            </value>
+            <value>
+                <fullName>Quality Control</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Quality Control</label>
+            </value>
+            <value>
+                <fullName>Regulatory Affairs</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Regulatory Affairs</label>
+            </value>
+            <value>
+                <fullName>Shipping &amp; Receiving</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Shipping &amp; Receiving</label>
+            </value>
+            <value>
+                <fullName>Supplier Site Qualification</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Supplier Site Qualification</label>
+            </value>
+            <value>
+                <fullName>Warehouse</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Warehouse</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Group__c</fullName>
+    <externalId>false</externalId>
+    <label>Group</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>System__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DMS Viewer</fullName>
+                <default>false</default>
+                <label>DMS Viewer</label>
+            </value>
+            <value>
+                <fullName>DMS Author</fullName>
+                <default>false</default>
+                <label>DMS Author</label>
+            </value>
+            <value>
+                <fullName>DMS Reviewer</fullName>
+                <default>false</default>
+                <label>DMS Reviewer</label>
+            </value>
+            <value>
+                <fullName>DMS Approver</fullName>
+                <default>false</default>
+                <label>DMS Approver</label>
+            </value>
+            <value>
+                <fullName>General User</fullName>
+                <default>false</default>
+                <label>General User</label>
+            </value>
+            <value>
+                <fullName>Area Management</fullName>
+                <default>false</default>
+                <label>Area Management</label>
+            </value>
+            <value>
+                <fullName>Andelyn QA</fullName>
+                <default>false</default>
+                <label>Andelyn QA</label>
+            </value>
+            <value>
+                <fullName>CSA Authors</fullName>
+                <default>false</default>
+                <label>CSA Authors</label>
+            </value>
+            <value>
+                <fullName>CSA Executors</fullName>
+                <default>false</default>
+                <label>CSA Executors</label>
+            </value>
+            <value>
+                <fullName>CSA Power Users</fullName>
+                <default>false</default>
+                <label>CSA Power Users</label>
+            </value>
+            <value>
+                <fullName>CSA Quality Assurance</fullName>
+                <default>false</default>
+                <label>CSA Quality Assurance</label>
+            </value>
+            <value>
+                <fullName>CSA SMEs</fullName>
+                <default>false</default>
+                <label>CSA SMEs</label>
+            </value>
+            <value>
+                <fullName>CSA System/Process Owners</fullName>
+                <default>false</default>
+                <label>CSA System/Process Owners</label>
+            </value>
+            <value>
+                <fullName>CSA Validation Managers</fullName>
+                <default>false</default>
+                <label>CSA Validation Managers</label>
+            </value>
+            <value>
+                <fullName>Labchip Admin</fullName>
+                <default>false</default>
+                <label>Labchip Admin</label>
+            </value>
+            <value>
+                <fullName>Labchip SuperUser</fullName>
+                <default>false</default>
+                <label>Labchip SuperUser</label>
+            </value>
+            <value>
+                <fullName>LabchipUser</fullName>
+                <default>false</default>
+                <label>LabchipUser</label>
+            </value>
+            <value>
+                <fullName>HybridSystem Admin</fullName>
+                <default>false</default>
+                <label>HybridSystem Admin</label>
+            </value>
+            <value>
+                <fullName>HybridSystem SuperUser</fullName>
+                <default>false</default>
+                <label>HybridSystem SuperUser</label>
+            </value>
+            <value>
+                <fullName>HybridSystem User</fullName>
+                <default>false</default>
+                <label>HybridSystem User</label>
+            </value>
+            <value>
+                <fullName>Admins</fullName>
+                <default>false</default>
+                <label>Admins</label>
+            </value>
+            <value>
+                <fullName>SuperUsers</fullName>
+                <default>false</default>
+                <label>SuperUsers</label>
+            </value>
+            <value>
+                <fullName>Users</fullName>
+                <default>false</default>
+                <label>Users</label>
+            </value>
+            <value>
+                <fullName>Locally Administrated</fullName>
+                <default>false</default>
+                <label>Locally Administrated</label>
+            </value>
+            <value>
+                <fullName>PLA_NanoDrop_Admins</fullName>
+                <default>false</default>
+                <label>PLA_NanoDrop_Admins</label>
+            </value>
+            <value>
+                <fullName>PLA_NanoDrop_SuperUsers</fullName>
+                <default>false</default>
+                <label>PLA_NanoDrop_SuperUsers</label>
+            </value>
+            <value>
+                <fullName>PLA_NanoDrop_Users</fullName>
+                <default>false</default>
+                <label>PLA_NanoDrop_Users</label>
+            </value>
+            <value>
+                <fullName>PLA_Fermenters_Admin</fullName>
+                <default>false</default>
+                <label>PLA_Fermenters_Admin</label>
+            </value>
+            <value>
+                <fullName>PLA_Fermenters_Supervisor</fullName>
+                <default>false</default>
+                <label>PLA_Fermenters_Supervisor</label>
+            </value>
+            <value>
+                <fullName>PLA_Fermenters_Users</fullName>
+                <default>false</default>
+                <label>PLA_Fermenters_Users</label>
+            </value>
+            <value>
+                <fullName>QC_PlateReader_Admins</fullName>
+                <default>false</default>
+                <label>QC_PlateReader_Admins</label>
+            </value>
+            <value>
+                <fullName>QC_PlateReader_SuperUsers</fullName>
+                <default>false</default>
+                <label>QC_PlateReader_SuperUsers</label>
+            </value>
+            <value>
+                <fullName>QC_PlateReader_Users</fullName>
+                <default>false</default>
+                <label>QC_PlateReader_Users</label>
+            </value>
+            <value>
+                <fullName>CMF_ViCellBlu_Admins</fullName>
+                <default>false</default>
+                <label>CMF_ViCellBlu_Admins</label>
+            </value>
+            <value>
+                <fullName>CMF_ViCellBlu_SuperUsers</fullName>
+                <default>false</default>
+                <label>CMF_ViCellBlu_SuperUsers</label>
+            </value>
+            <value>
+                <fullName>CMF_ViCellBlu_Users</fullName>
+                <default>false</default>
+                <label>CMF_ViCellBlu_Users</label>
+            </value>
+            <value>
+                <fullName>Outside Vestibule</fullName>
+                <default>false</default>
+                <label>Outside Vestibule</label>
+            </value>
+            <value>
+                <fullName>DTS</fullName>
+                <default>false</default>
+                <label>DTS</label>
+            </value>
+            <value>
+                <fullName>General Access</fullName>
+                <default>false</default>
+                <label>General Access</label>
+            </value>
+            <value>
+                <fullName>Labs</fullName>
+                <default>false</default>
+                <label>Labs</label>
+            </value>
+            <value>
+                <fullName>Warehouse Vestibule</fullName>
+                <default>false</default>
+                <label>Warehouse Vestibule</label>
+            </value>
+            <value>
+                <fullName>Cold Rooms</fullName>
+                <default>false</default>
+                <label>Cold Rooms</label>
+            </value>
+            <value>
+                <fullName>Cell Bank</fullName>
+                <default>false</default>
+                <label>Cell Bank</label>
+            </value>
+            <value>
+                <fullName>Packaging</fullName>
+                <default>false</default>
+                <label>Packaging</label>
+            </value>
+            <value>
+                <fullName>Mother’s Room</fullName>
+                <default>false</default>
+                <label>Mother’s Room</label>
+            </value>
+            <value>
+                <fullName>QC Labs</fullName>
+                <default>false</default>
+                <label>QC Labs</label>
+            </value>
+            <value>
+                <fullName>General Grade D</fullName>
+                <default>false</default>
+                <label>General Grade D</label>
+            </value>
+            <value>
+                <fullName>General Grade C</fullName>
+                <default>false</default>
+                <label>General Grade C</label>
+            </value>
+            <value>
+                <fullName>Grade C Plasmid</fullName>
+                <default>false</default>
+                <label>Grade C Plasmid</label>
+            </value>
+            <value>
+                <fullName>Grade C Vector</fullName>
+                <default>false</default>
+                <label>Grade C Vector</label>
+            </value>
+            <value>
+                <fullName>Grade B</fullName>
+                <default>false</default>
+                <label>Grade B</label>
+            </value>
+            <value>
+                <fullName>KP1</fullName>
+                <default>false</default>
+                <label>KP1</label>
+            </value>
+            <value>
+                <fullName>WIP</fullName>
+                <default>false</default>
+                <label>WIP</label>
+            </value>
+            <value>
+                <fullName>WD1</fullName>
+                <default>false</default>
+                <label>WD1</label>
+            </value>
+            <value>
+                <fullName>Doc Control</fullName>
+                <default>false</default>
+                <label>Doc Control</label>
+            </value>
+            <value>
+                <fullName>Maintenance</fullName>
+                <default>false</default>
+                <label>Maintenance</label>
+            </value>
+            <value>
+                <fullName>Add All SBAS Alarm Alerts</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Add All SBAS Alarm Alerts</label>
+            </value>
+            <value>
+                <fullName>Add specific SBAS Alarm Alerts</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Add specific SBAS Alarm Alerts</label>
+            </value>
+            <value>
+                <fullName>Autoclave (Rm 1040) Equipment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Autoclave (Rm 1040) Equipment</label>
+            </value>
+            <value>
+                <fullName>Autoclave (Rm 1040) Room Conditions</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Autoclave (Rm 1040) Room Conditions</label>
+            </value>
+            <value>
+                <fullName>CP1 (Rm 1122) Equipment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CP1 (Rm 1122) Equipment</label>
+            </value>
+            <value>
+                <fullName>CP1 (Rm 1122) Room Conditions</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CP1 (Rm 1122) Room Conditions</label>
+            </value>
+            <value>
+                <fullName>CP2 (Rm 1135) Equipment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CP2 (Rm 1135) Equipment</label>
+            </value>
+            <value>
+                <fullName>CP2 (Rm 1135) Room Conditions</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CP2 (Rm 1135) Room Conditions</label>
+            </value>
+            <value>
+                <fullName>Cold Room 1 &amp; 2 (Rms 1046 &amp; 1047) Equipment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Cold Room 1 &amp; 2 (Rms 1046 &amp; 1047) Equipment</label>
+            </value>
+            <value>
+                <fullName>Cold Room 1 &amp; 2 (Rms 1046 &amp; 1047) Room Conditions</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Cold Room 1 &amp; 2 (Rms 1046 &amp; 1047) Room Conditions</label>
+            </value>
+            <value>
+                <fullName>FT1  (Rm 1131) Equipment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>FT1  (Rm 1131) Equipment</label>
+            </value>
+            <value>
+                <fullName>FT1  (Rm 1131) Room Conditions</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>FT1  (Rm 1131) Room Conditions</label>
+            </value>
+            <value>
+                <fullName>Remove All SBAS Alarm Alerts</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Remove All SBAS Alarm Alerts</label>
+            </value>
+            <value>
+                <fullName>Remove specific SBAS Alarm Alerts</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Remove specific SBAS Alarm Alerts</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Facility Access</controllingFieldValue>
+            <valueName>Outside Vestibule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facility Access</controllingFieldValue>
+            <valueName>DTS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facility Access</controllingFieldValue>
+            <valueName>General Access</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facility Access</controllingFieldValue>
+            <valueName>Labs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facility Access</controllingFieldValue>
+            <valueName>Warehouse Vestibule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facility Access</controllingFieldValue>
+            <valueName>Cold Rooms</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facility Access</controllingFieldValue>
+            <valueName>Cell Bank</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facility Access</controllingFieldValue>
+            <valueName>Packaging</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facility Access</controllingFieldValue>
+            <valueName>Mother’s Room</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facility Access</controllingFieldValue>
+            <valueName>QC Labs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facility Access</controllingFieldValue>
+            <valueName>General Grade D</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facility Access</controllingFieldValue>
+            <valueName>General Grade C</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facility Access</controllingFieldValue>
+            <valueName>Grade C Plasmid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facility Access</controllingFieldValue>
+            <valueName>Grade C Vector</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facility Access</controllingFieldValue>
+            <valueName>Grade B</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facility Access</controllingFieldValue>
+            <valueName>KP1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facility Access</controllingFieldValue>
+            <valueName>WIP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facility Access</controllingFieldValue>
+            <valueName>WD1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facility Access</controllingFieldValue>
+            <valueName>Doc Control</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facility Access</controllingFieldValue>
+            <valueName>Maintenance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trackwise</controllingFieldValue>
+            <valueName>DMS Viewer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trackwise</controllingFieldValue>
+            <valueName>DMS Author</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trackwise</controllingFieldValue>
+            <valueName>DMS Reviewer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trackwise</controllingFieldValue>
+            <valueName>DMS Approver</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trackwise</controllingFieldValue>
+            <valueName>General User</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trackwise</controllingFieldValue>
+            <valueName>Area Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trackwise</controllingFieldValue>
+            <valueName>Andelyn QA</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Equipment_Name__c</columns>
+    <columns>CMPL123_WF_Status__c</columns>
+    <columns>Equipment_Type__c</columns>
+    <columns>Validation_Status__c</columns>
+    <columns>EVP_ID__c</columns>
+    <columns>EVP_Approval__c</columns>
+    <columns>VPR_ID__c</columns>
+    <columns>VPR_Approval__c</columns>
+    <columns>Periodic_Review_Cycle_months__c</columns>
+    <columns>Next_PR_Due_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Equipment_Name__c</field>
+        <operation>contains</operation>
+        <value>schn</value>
+    </filters>
+    <label>All</label>
+</ListView>

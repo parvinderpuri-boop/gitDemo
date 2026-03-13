@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Multiple</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>New Multiple</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>/apex/CMPL123__MultipleRecordSearchAndLinkv2?targetobject=
+CMPL123__Product__c&amp;recordId={!CMPL123QMS__Change_Control__c.Id}&amp;linkObject=
+Linked_Change_Control__c</url>
+</WebLink>

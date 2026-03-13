@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>System__c</fullName>
+    <externalId>false</externalId>
+    <label>System</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>BMRAM</fullName>
+                <default>false</default>
+                <label>BMRAM</label>
+            </value>
+            <value>
+                <fullName>Facility Access</fullName>
+                <default>false</default>
+                <label>Facility Access</label>
+            </value>
+            <value>
+                <fullName>Image Lab</fullName>
+                <default>false</default>
+                <label>Image Lab</label>
+            </value>
+            <value>
+                <fullName>LabChip</fullName>
+                <default>false</default>
+                <label>LabChip</label>
+            </value>
+            <value>
+                <fullName>LabVantage</fullName>
+                <default>false</default>
+                <label>LabVantage</label>
+            </value>
+            <value>
+                <fullName>Lighthouse Portable</fullName>
+                <default>false</default>
+                <label>Lighthouse Portable</label>
+            </value>
+            <value>
+                <fullName>Ops Autoclave</fullName>
+                <default>false</default>
+                <label>Ops Autoclave</label>
+            </value>
+            <value>
+                <fullName>Ops Bioreactor</fullName>
+                <default>false</default>
+                <label>Ops Bioreactor</label>
+            </value>
+            <value>
+                <fullName>Ops FlexiPro</fullName>
+                <default>false</default>
+                <label>Ops FlexiPro</label>
+            </value>
+            <value>
+                <fullName>Ops Flowstar</fullName>
+                <default>false</default>
+                <label>Ops Flowstar</label>
+            </value>
+            <value>
+                <fullName>Ops MVP</fullName>
+                <default>false</default>
+                <label>Ops MVP</label>
+            </value>
+            <value>
+                <fullName>Ops Nanodrop</fullName>
+                <default>false</default>
+                <label>Ops Nanodrop</label>
+            </value>
+            <value>
+                <fullName>OPS ViCell Blu</fullName>
+                <default>false</default>
+                <label>OPS ViCell Blu</label>
+            </value>
+            <value>
+                <fullName>PLA NanoDrops</fullName>
+                <default>false</default>
+                <label>PLA NanoDrops</label>
+            </value>
+            <value>
+                <fullName>PLA XDR Fermenters</fullName>
+                <default>false</default>
+                <label>PLA XDR Fermenters</label>
+            </value>
+            <value>
+                <fullName>QC ddPCRs</fullName>
+                <default>false</default>
+                <label>QC ddPCRs</label>
+            </value>
+            <value>
+                <fullName>QC HPLC</fullName>
+                <default>false</default>
+                <label>QC HPLC</label>
+            </value>
+            <value>
+                <fullName>QC Nanodrop</fullName>
+                <default>false</default>
+                <label>QC Nanodrop</label>
+            </value>
+            <value>
+                <fullName>QC Osmometer</fullName>
+                <default>false</default>
+                <label>QC Osmometer</label>
+            </value>
+            <value>
+                <fullName>QC Plate Readers</fullName>
+                <default>false</default>
+                <label>QC Plate Readers</label>
+            </value>
+            <value>
+                <fullName>QC qPCRs</fullName>
+                <default>false</default>
+                <label>QC qPCRs</label>
+            </value>
+            <value>
+                <fullName>QC UltraRed</fullName>
+                <default>false</default>
+                <label>QC UltraRed</label>
+            </value>
+            <value>
+                <fullName>RES_Q</fullName>
+                <default>false</default>
+                <label>RES_Q</label>
+            </value>
+            <value>
+                <fullName>SAP</fullName>
+                <default>false</default>
+                <label>SAP</label>
+            </value>
+            <value>
+                <fullName>Schneider BAS</fullName>
+                <default>false</default>
+                <label>Schneider BAS</label>
+            </value>
+            <value>
+                <fullName>Tempo</fullName>
+                <default>false</default>
+                <label>Tempo</label>
+            </value>
+            <value>
+                <fullName>TetraScience</fullName>
+                <default>false</default>
+                <label>TetraScience</label>
+            </value>
+            <value>
+                <fullName>Trackwise</fullName>
+                <default>false</default>
+                <label>Trackwise</label>
+            </value>
+            <value>
+                <fullName>Tulip</fullName>
+                <default>false</default>
+                <label>Tulip</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

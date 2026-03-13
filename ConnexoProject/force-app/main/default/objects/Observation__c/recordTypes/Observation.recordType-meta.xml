@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Observation</fullName>
+    <active>true</active>
+    <description>Quality Event Record Type</description>
+    <label>Observation</label>
+    <picklistValues>
+        <picklist>Assigned_To_Area__c</picklist>
+        <values>
+            <fullName>Analytical Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contamination Control</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drug %26 Device Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facility Operations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Learning %26 Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MS%26T</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Materials Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Packaging %26 Labeling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plasmid Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Process Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quality Assurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quality Control</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regulatory Affairs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipping %26 Receiving</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Starting Materials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Validations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warehouse</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Impacted_Departments__c</picklist>
+        <values>
+            <fullName>Business Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contamination Control</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drug %26 Device Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facility Operations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Learning %26 Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MS%26T</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Materials Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Packaging %26 Labeling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plasmid Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Process Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quality Assurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quality Control</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regulatory Affairs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipping %26 Receiving</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Starting Materials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Validations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warehouse</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Location__c</picklist>
+        <values>
+            <fullName>ACC- 4009 QC Sample Receipt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-1012 Freezer Farm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-1017 LN2 Room</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-1020 B%2FW Inspection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-1032 Waste Out</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-1033%2F1036 MATL%2FSMPL Transfer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-1040 Manual Fill%2F Anterooms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-1043 AC Prep</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-1049%2F1050 Gowning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-1053 GMP Hallway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-1054 Gown Staging</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-1059 PR1%2F Anterooms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-1060 PR2%2F Anterooms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-1065 PR Corridor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-1068 M01%2FAnterooms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-1073 M02%2FAnterooms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-1078 M03%2FAnterooms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-1083 M04%2FAnterooms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-1088 M05%2FAnterooms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-1093 M06%2FAnterooms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-1098 M07%2FAnterooms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-1103 M08%2FAnterooms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-1106 Grade D East Corridor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-1111 WD1%2F Anterooms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-1113 KP1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-1114 M-Corridor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-1119 SP1%2FAnterooms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-1122 CP1%2FAnterooms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-1126A Grade D West Corridor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-1131 FT1%2FAnterooms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-1135 CP2%2FAnterooms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-1137  Waste Staging</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-1140 MF1%2FAnterooms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-1153 Material Staging</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-1155 Grade D Corridor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-1156 Warehouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-1160 MF2%2FAnterooms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-4011%2F4015%2F4017 QC PCR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-4012 Tissue Culture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-4014 QC Master Mix</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-4018 QC General Lab</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACC-4019 QC Micro Lab</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Owner_Area__c</picklist>
+        <values>
+            <fullName>Analytical Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contamination Control</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drug %26 Device Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facility Operations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Learning %26 Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MS%26T</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Materials Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Packaging %26 Labeling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plasmid Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Process Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quality Assurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quality Control</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regulatory Affairs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipping %26 Receiving</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Starting Materials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Validations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warehouse</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Problem_Categorization__c</picklist>
+        <values>
+            <fullName>Contamination</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Defect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Documentation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equipment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instrument</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Procedure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Testing %28In-Process%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Testing %28Release%2FStability%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reported_By_Department__c</picklist>
+        <values>
+            <fullName>Business Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contamination Control</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drug %26 Device Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facility Operations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Learning %26 Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MS%26T</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Materials Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Packaging %26 Labeling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plasmid Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Process Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quality Assurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quality Control</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regulatory Affairs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipping %26 Receiving</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Starting Materials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Validations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warehouse</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
