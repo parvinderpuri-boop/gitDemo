@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Amount_Spent_on_Ticket__c</fullName>
+    <externalId>false</externalId>
+    <label>Total Amount Spent on Ticket</label>
+    <summarizedField>Book_Flight__c.Ticket_Price__c</summarizedField>
+    <summaryForeignKey>Book_Flight__c.Passenger__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

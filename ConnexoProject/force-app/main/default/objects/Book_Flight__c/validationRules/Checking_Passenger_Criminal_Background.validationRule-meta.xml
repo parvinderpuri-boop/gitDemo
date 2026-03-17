@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Checking_Passenger_Criminal_Background</fullName>
+    <active>false</active>
+    <description>Checking Passenger Criminal  Background</description>
+    <errorConditionFormula>Passenger__r.Any_Onging_Warrant__c  = True</errorConditionFormula>
+    <errorMessage>You cannot book a flight for a passenger with an ongoing warrant</errorMessage>
+</ValidationRule>
