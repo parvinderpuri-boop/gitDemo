@@ -28,7 +28,7 @@ jobs:
       # 4. Validate (CI)
       - name: Validate
         run: |
-          sf project deploy start --check-only --target-org myOrg
+          sf project deploy start --dry-run --target-org myOrg
 
       # 5. Run Tests
       - name: Run Tests
