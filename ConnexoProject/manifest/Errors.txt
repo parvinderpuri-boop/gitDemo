@@ -1,0 +1,38 @@
+1. Custom Object Errors
+
+CMPL123QMS__Audit_Finding__c → searchResultsFields not found
+
+CMPL123QMS__Change_Control__c → searchResultsFields not found
+
+CMPL123QMS__Effectiveness_Check__c → searchResultsFields not found
+
+CMPL123QMS__Extension_Request__c → searchResultsFields not found
+
+CMPL123QMS__OOS__c → searchResultsFields not found
+
+2. Custom Field Error
+
+CMPL123QMS__Audit_Finding__c.CMPL123QMS__CAPA_Required__c
+→ Cannot modify managed field (Picklist controller issue, managed package restriction)
+
+CMPL123__Action__c.ISU_Action_Name_text__c
+→ Referenced field ISU_Action_Name_Auto__c not found
+
+3. Layout Errors
+
+CMPL123QMS__CAPA__c - ISU CAPA Layout
+→ Invalid field CMPL123_WF_Status__c in related list
+
+CMPL123QMS__Deviation__c - ISU Quality Event Layout
+→ Invalid field CMPL123_WF_Status__c in related list
+
+CMPL123__Action__c - ISU Action Layout
+→ Field Head_of_Team__c not found
+
+4. Warnings
+
+Missing Global Value Sets:
+
+QMS_Department__gvs
+
+Y_N_N__gvs
