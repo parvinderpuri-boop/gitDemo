@@ -1,4 +1,4 @@
-name: Salesforce CI Pipeline
+name: Salesforce CI/CD
 
 on:
   push:
@@ -7,17 +7,35 @@ on:
       - feature/*
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
+      # 1. Code load
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Display Branch Name
-        run: echo "Running on branch ${{ github.ref_name }}"
+      # 2. Install Salesforce CLI
+      - name: Install SF CLI
+        run: npm install @salesforce/cli -g
 
-      - name: Test Step
-        run: echo "CI/CD pipeline is working successfully"
+      # 3. Authenticate org
+      - name: Auth Salesforce
+        run: |
+          echo "${{ secrets.SF_AUTH_URL }}" > auth.txt
+          sf org login sfdx-url -f auth.txt -a myOrg
 
-        # last line me ek space ya comment add karo
+      # 4. Validate (CI)
+      - name: Validate
+        run: |
+          sf project deploy start --check-only --target-org myOrg
+
+      # 5. Run Tests
+      - name: Run Tests
+        run: |
+          sf apex run test --target-org myOrg --result-format human
+
+      # 6. Deploy (CD)
+      - name: Deploy
+        run: |
+          sf project deploy start --target-org myOrg
